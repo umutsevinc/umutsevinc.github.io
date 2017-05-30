@@ -1,8 +1,20 @@
 
 
+@media screen and ( max-width: 414px) {
+	.avatar > img, .accent-orange-scrollbar .avatar > img {
 
+		height: 200px;
+	}
+}
 
-@media screen and ( max-width: 1199px) {
+@media screen and (min-width: 415px) and ( max-width: 991px) {
+	.avatar > img, .accent-orange-scrollbar .avatar > img {
+
+		height: auto;
+	}
+}
+
+@media screen and ( min-width: 992px) {
 
 	/* - - - - - - - - - - - - - - - - - **
 	*
@@ -788,11 +800,7 @@
 
 @media screen and ( max-width: 360px) {
 
-	.top_parallax {
 
-		background: url('../img/macbook-bg.jpg') center center no-repeat;
-		background-size: cover;
-	}
 
 	h1 {
 
