@@ -26,12 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="737" column="14" lean-forward="true" selection-start-line="737" selection-start-column="14" selection-end-line="737" selection-end-column="14" />
+            <state relative-caret-position="634">
+              <caret line="816" column="13" lean-forward="true" selection-start-line="816" selection-start-column="13" selection-end-line="816" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookiechoices.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cookiechoices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="907">
+              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +86,7 @@
       <find>margin-top: 60</find>
       <find>educat</find>
       <find>compet</find>
+      <find>messa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +98,7 @@
         <option value="$PROJECT_DIR$/style/responsive.css" />
         <option value="$PROJECT_DIR$/style/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/cookiechoices.js" />
       </list>
     </option>
   </component>
@@ -272,12 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496152956056</updated>
       <workItem from="1496152957522" duration="552000" />
-      <workItem from="1496177892234" duration="6234000" />
+      <workItem from="1496177892234" duration="8039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24473000" />
+    <option name="totallyTimeSpent" value="26278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -354,6 +368,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1640">
           <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -365,19 +380,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="737" column="14" lean-forward="true" selection-start-line="737" selection-start-column="14" selection-end-line="737" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="816" column="13" lean-forward="true" selection-start-line="816" selection-start-column="13" selection-end-line="816" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookiechoices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
