@@ -485,7 +485,7 @@ $(function() {
 
 	});
 
-	$(window).load(function(){
+    $(window).on('load', function(){
 
 		Core.windowLoad();
 

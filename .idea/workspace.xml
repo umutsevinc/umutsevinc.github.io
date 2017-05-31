@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="546d70ea-0c82-4b07-9308-e114c229a100" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -26,24 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="816" column="13" lean-forward="true" selection-start-line="816" selection-start-column="13" selection-end-line="816" selection-end-column="13" />
+            <state relative-caret-position="520">
+              <caret line="810" column="0" lean-forward="true" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookiechoices.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cookiechoices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="907">
-              <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -97,8 +86,8 @@
       <list>
         <option value="$PROJECT_DIR$/style/responsive.css" />
         <option value="$PROJECT_DIR$/style/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/cookiechoices.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -286,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496152956056</updated>
       <workItem from="1496152957522" duration="552000" />
-      <workItem from="1496177892234" duration="8039000" />
+      <workItem from="1496177892234" duration="9142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26278000" />
+    <option name="totallyTimeSpent" value="27381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,21 +377,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="816" column="13" lean-forward="true" selection-start-line="816" selection-start-column="13" selection-end-line="816" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookiechoices.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="52" column="35" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="327">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="810" column="0" lean-forward="true" selection-start-line="810" selection-start-column="0" selection-end-line="810" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
