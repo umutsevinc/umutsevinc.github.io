@@ -59,8 +59,8 @@ $(function() {
 		this.events_ = function() {
 
 			$('body').on('click touchstart', '.body-shadow', this.hide_);
-			this.navBtn.on('click touchstart', this.open_);
-			this.navLink.on('click touchstart', this.clickNav_);
+			this.navBtn.on('click', this.open_);
+			this.navLink.on('click', this.clickNav_);
 		}
 
 		this.init_ = function() {
