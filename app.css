@@ -207,16 +207,25 @@ a.navbar-item.is-active {
   position: relative;
   width: 100%;
 }
-.overlay-image .image {
+.overlay-imag
+align-items: center;
+display: flex;
+flex-direction: column;e .image {
   display: block;
   width: auto;
   height: auto;
-}
+
+align-items: center;
+display: flex;
+flex-direction: column;}
 .overlay-image .text {
   color: #fff;
   font-size: 35px;
   line-height: 1em;
-  text-align: left;
+  text-align:
+  align-items: center;
+display: flex;
+flex-direction: column; left;
   position: absolute;
   top: 20%;
   left: 55%;
@@ -233,7 +242,10 @@ a.navbar-item.is-active {
   position: absolute;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: 100%
+  align-items: center;
+display: flex;
+flex-direction: column;;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(7,29,73,0.5);
@@ -242,7 +254,10 @@ a.navbar-item.is-active {
   opacity: 1;
  }
 .columnImg  {
-  display: block;
+  display: blo
+  align-items: center;
+display: flex;
+flex-direction: column;ck;
   -ms-flex-preferred-size: 0;
       flex-basis: 0;
   -webkit-box-flex: 1;
@@ -372,7 +387,10 @@ a.navbar-item.is-active {
   width: 100%;
   height: 50%;
   object-fit: cover;
-}
+
+align-items: center;
+display: flex;
+flex-direction: column;}
 .crossImg {
  width: 60px;
  height: auto;
@@ -505,6 +523,9 @@ a.navbar-item.is-active {
   .line {
     margin: 5%;
   }
+  .rightModal {
+    left: 0%;
+  }
   .logoContainer {
     padding-bottom: 25%;
   }
@@ -538,4 +559,36 @@ a.navbar-item.is-active {
     margin: 0rem;
     margin-bottom: 0.7rem;
   }
+  .modalDialog > div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 13px 0px;
+    background: #fff;
+  }
+  .overlay-image {
+    position: relative;
+    width: 90%;
+  }
+  .phoneTeam {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .hover.hidePhone {
+    display: none;
+  }
+  .centerModal {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0%;
+  }
+  .modalJoin > div {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0px 25px 30px 25px;
+    background: #fff;
+    }
 }
