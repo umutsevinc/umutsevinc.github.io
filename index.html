@@ -1,833 +1,124 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Umut Sevinc</title>
-    <meta name="author" content="Umut Sevinc">
-    <meta name="keywords" content="">
-    <meta name="description" content="Resume">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta author="Scalene Partners" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Scalene Partners | Fundraising advisory" />
+    <title>Scalene Partners</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./hover/hover.css">
+    <link rel="stylesheet" href="./hover/hover.css.map">
+    <link rel="stylesheet" href="./hover/hover-min.css">
 
-    <!-- FAVICON FILES -->
-    <link href="img/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
-    <link href="img/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
-    <link href="img/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
-    <link href="img/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-    <link href="img/favico.ico" rel="shortcut icon" type="images/x-icon">
+    <link href="Assets/ico/ico144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="Assets/ico/ico114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="Assets/ico/ico72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="Assets/ico/ico57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+    <link href="Assets/ico/ico.ico" rel="shortcut icon">
 
-    <!-- CSS FILES -->
-    <link rel="stylesheet" href="style/libs.css">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/responsive.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108837571-1');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            if ($navbarBurgers.length > 0) {
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+    </script>
 </head>
-<body class="accent-green-scrollbar" id="home">
 
-<main class="maincontent">
-    <div class="top_parallax before_header_block before_header_block"></div>
-    <header class="header top_header" id="js-nav">
-        <div class="container">
-            <div class="responsive_header">
-                <button class="nav-btn" id="js-nav-btn">
-                    <i class="material-icons">&#xE5D2;</i>
-                </button>
-                <a href="#about"><span class="header_title">Umut Sevinc</span></a>
+<body>
+    <section class="hero is-fullheight">
+        <nav class="navbar is-transparent paddNavbar">
+            <div class="navbar-brand">
+                <!-- <a class="navbar-item" href="http://www.scalenepartners.com">
+                    <img src="./Assets/SC_PRTNRS_White.png" alt="Bulma: a modern CSS framework based on Flexbox" width="auto"
+                        height="40">
+                </a> -->
+                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <nav class="navigation">
-                <div class="nav_title">
-                    <span class="name">Umut Sevinc</span>
-                    <span class="nav_profession accent-green">Developpeur</span>
-                    <button class="nav-btn" id="js-nav-btn">
-                        <a href="#home" class="nav_link">
-                            <i class="material-icons">clear</i>
-                        </a>
-                    </button>
-                </div>
 
-                <ul class="nav_list">
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="#about" class="nav_link">A
-                        Propos</a>
-                    </li>
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="#skills" class="nav_link">Competences</a>
-                    </li>
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="#experience" class="nav_link">Experiences</a>
-                    </li>
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="#education" class="nav_link">Formation</a>
-                    </li>
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="#contact" class="nav_link">Contact</a>
-                    </li>
-                    <li class="nav_item hvr-underline-from-left accent-green"><a href="green_blog_roll.html"
-                                                                                 class="nav_link">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="container offset-top">
-        <div class="about section anchor-offset" id="about">
-            <div class="row">
-                <div class="col-md-4 align_center">
-                    <div class="avatar">
-                        <img src="img/avatar.jpg" alt="man-avatar">
-                    </div>
-                </div>
-                <div class="col-md-8 align_center">
-                    <div class="about_desc">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="about_information">
-                                    <div class="about_title">
-                                        <h1>
-                                            <span class="name">Umut Sevinc</span>
-                                        </h1>
-                                        <span class="about_profession accent-green">Développeur</span>
-                                    </div> <!--/.about_title-->
-                                    <ul class="information_list">
-                                        <li class="information_item">
-                                            <i class="material-icons information_icon accent-green">mail</i>
-                                            <span class="information_label">email</span>
-                                            <a href="mailto:walphabet@gmail.com" class="information_link">umut.sevinc@epitech.eu</a>
-                                        </li>
-                                        <li class="information_item">
-                                            <i class="material-icons information_icon accent-green">location_on</i>
-                                            <span class="information_label">Adresse</span>
-                                            <span class="information_link">6 rue Maria Callas, Lingolsheim, France</span>
-                                        </li>
-                                        <li class="information_item">
-                                            <i class="material-icons information_icon accent-green">phone</i>
-                                            <span class="information_label">phone</span>
-                                            <a href="tel:+245425487423" class="information_link">+33 6 95 20 64 88</a>
-                                        </li>
-                                    </ul>
-                                    <div class="about_btn align_center">
-                                        <a href="CV/Cv2017.jpg" target="_blank"
-                                           class="btn btn--download accent-green"><span>Telecharger CV</span> <i
-                                                class="material-icons accent-green">&#xE2C4;</i></a>
-                                        <a href="#contact" class="btn accent-green">contact</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a class="navbar-item hvr-overline-reveal" href="team.html">
+                            OUR TEAM
+                        </a>
+                        <a class="navbar-item hvr-overline-reveal" href="join_us.php">
+                            JOIN US
+                        </a>
+                        <a class="navbar-item hvr-overline-reveal" href="https://bulma.io/">
+                            CONTACT
+                        </a>
                     </div>
                 </div>
             </div>
-            <ul class="social_list">
-                <li class="social_item">
-                    <div class="social_hover social_hover--linkedin" data-effect="fadeInLeft">
-                        <span>Follow me on Linkedin</span></div>
-                    <a href="https://fr.linkedin.com/in/umut-sevinc-129371b2" target="_blank" class="social_link"><i
-                            class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </li>
-                <li class="social_item">
-                    <div class="social_hover social_hover--github" data-effect="fadeInLeft">
-                        <span>Follow me on GitHub</span></div>
-                    <a href="https://github.com/umutsevinc" target="_blank" class="social_link"><i class="fa fa-github"
-                                                                                                   aria-hidden="true"></i></a>
-                </li>
-            </ul>
-        </div>
-        <div class="skills section offset-top" id="skills">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="all_skills">
-                        <h2 class="accent-green">Competences</h2>
-                        <ul class="skills_list">
-                            <li class="skills_item accent-green">GIT</li>
-                            <li class="skills_item accent-green">Android Studio</li>
-                            <li class="skills_item accent-green">Clion / InteliJ</li>
-                            <li class="skills_item accent-green">Webstorm</li>
-                            <li class="skills_item accent-green">Unity / Unreal Engine</li>
-                        </ul>
-                    </div>
+            </div>
+        </nav>
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="logoContainer">
+                    <img class="imgLogo anim" src="./Assets/SC_PRTNRS_White.png" alt="Scalene Partners">
                 </div>
-                <div class="col-md-8">
-                    <div class="progress-wrap">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3 class="skills_title">Professionnelles</h3>
-                                <div class="skillsbar_list proffesional_list">
-                                    <div class="skillbar clearfix " data-percent="90%">
-                                        <div class="skillbar-title"><span>C/C++</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">90%</div>
-                                    </div>
-
-                                    <div class="skillbar clearfix " data-percent="70%">
-                                        <div class="skillbar-title"><span>HTML/CSS</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div> <!-- End Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="60%">
-                                        <div class="skillbar-title"><span>Java</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div> <!-- End Skill Bar -->
-                                    <div class="skillbar clearfix " data-percent="60%">
-                                        <div class="skillbar-title"><span>PHP</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">60%</div>
-                                    </div> <!-- End Skill Bar -->
-
-                                </div> <!-- /.skillsbar_list -->
-
-                            </div> <!--/.col-->
-
-                            <!--col-md-6-->
-                            <div class="col-md-6">
-
-                                <h3 class="skills_title right_skills_title">Languages</h3>
-
-                                <!-- skills -->
-                                <div class="skillsbar_list language_list">
-
-                                    <div class="skillbar clearfix " data-percent="100%">
-                                        <div class="skillbar-title"><span>Français (native)</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">100%</div>
-                                    </div> <!-- End Skill Bar -->
-
-                                    <div class="skillbar clearfix " data-percent="80%">
-                                        <div class="skillbar-title"><span>Turc</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">80%</div>
-                                    </div> <!-- End Skill Bar -->
-
-                                    <div class="skillbar clearfix " data-percent="70%">
-                                        <div class="skillbar-title"><span>Anglais</span></div>
-                                        <div class="skillbar-bar accent-green"></div>
-                                        <div class="skill-bar-percent">70%</div>
-                                    </div> <!-- End Skill Bar -->
-
-                                </div> <!-- /.skillsbar_list -->
-
-                            </div> <!-- /.col-->
-
-                        </div> <!--/.row-->
-
-                    </div> <!--/.progress-wrap-->
-
-                </div> <!--/.col-->
-
-            </div> <!--/.row-->
-
-        </div>
-
-        <!-- - - - - - - - - - - - - /.skills - - - - - - - - - - - - -->
-
-    </div> <!--/.container-->
-
-    <!--
-        &lt;!&ndash; - - - - - - - - - - - - portfolio - - - - - - - - - - - - &ndash;&gt;
-
-        <div class="portfolio offset-top anchor-offset" id="portfolio">
-
-            &lt;!&ndash;portfolio top&ndash;&gt;
-            <div class="portfolio_top">
-
-                &lt;!&ndash;container&ndash;&gt;
-                <div class="container">
-
-                    &lt;!&ndash;row&ndash;&gt;
-                    <div class="row">
-
-                        &lt;!&ndash;col-md-4&ndash;&gt;
-                        <div class="col-md-4">
-
-                            <div class="offset-left">
-                                <h2 class="accent-green">portfolio</h2>
-                            </div>
-
-                        </div> &lt;!&ndash;/.col&ndash;&gt;
-
-                        &lt;!&ndash;col-md-8&ndash;&gt;
-                        <div class="col-md-8">
-
-                            <ul class="gallery_tab_list">
-                                <li class="gallery_tab_item hvr-underline-from-left accent-green"><a data-filter=".all"
-                                                                                                     href="#"
-                                                                                                     class="gallery_tab_link current">all</a>
-                                </li>
-                                <li class="gallery_tab_item hvr-underline-from-left accent-green"><a data-filter=".nature"
-                                                                                                     href="#"
-                                                                                                     class="gallery_tab_link">nature</a>
-                                </li>
-                                <li class="gallery_tab_item hvr-underline-from-left accent-green"><a data-filter=".interior"
-                                                                                                     href="#"
-                                                                                                     class="gallery_tab_link">interior</a>
-                                </li>
-                                <li class="gallery_tab_item hvr-underline-from-left accent-green"><a data-filter=".elements"
-                                                                                                     href="#"
-                                                                                                     class="gallery_tab_link">elements</a>
-                                </li>
-                            </ul>
-
-                        </div> &lt;!&ndash;/.col&ndash;&gt;
-
-                    </div> &lt;!&ndash;/.row&ndash;&gt;
-
-                </div> &lt;!&ndash;/.container&ndash;&gt;
-
-            </div> &lt;!&ndash;/.portfolio top&ndash;&gt;
-
-            &lt;!&ndash;portfolio container&ndash;&gt;
-            <div class="portfolio_container">
-
-                &lt;!&ndash;row&ndash;&gt;
-                <div class="row" id="shuffle_container">
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item nature all">
-                        <a href="img/gallery/img1.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img1.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item interior all">
-                        <a href="img/gallery/img2.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img2.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item nature all">
-                        <a href="img/gallery/img3.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img3.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item interior all">
-                        <a href="img/gallery/img4.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img4.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item elements all">
-                        <a href="img/gallery/img5.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img5.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                    &lt;!&ndash;gallery_item&ndash;&gt;
-                    <div class="col-md-4 gallery_item elements all">
-                        <a href="img/gallery/img6.jpg" class="portfolio_link accent-green">
-                            <figure>
-                                <div class="img_wrap"><img src="img/gallery/img6.jpg" alt="" class="portfolio-img"></div>
-                                <figcaption class="portfolio_desc">
-                                    <p class="project_info">project information</p>
-                                    <p class="about_company">about company</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                    </div> &lt;!&ndash;/.gallery-item&ndash;&gt;
-
-                </div> &lt;!&ndash;/.row&ndash;&gt;
-
-            </div> &lt;!&ndash;/.portfolio container&ndash;&gt;
-
-        </div>-->
-
-    <div class="experience offset-top anchor-offset" id="experience">
-        <div class="container">
-            <h2 class="offset-left accent-green">experience</h2>
-            <div class="experience_list offset-left">
-                <section class="experience_item accent-green">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="expirience_left accent-green">
-                                <div class="expirience_date">
-                                    <div class="start">
-                                        <span class="from date_label">De</span>
-                                        <span class="from_date">Mars 2017</span>
-                                    </div>
-                                    <div class="end">
-                                        <span class="to date_label">a</span>
-                                        <span class="from_date">Aujourd'hui</span>
-                                    </div>
-                                    <span class="blur_text">(4 mois)</span>
-                                </div> <!--/.expirience date-->
-                                <div class="expirience_company">
-                                    <span class="company">L'ENA</span>
-                                    <span class="blur_text">Strasbourg, France</span>
-                                </div> <!--/.expirience company-->
-                            </div> <!--/.expirience_left-->
-                        </div> <!--/.col-->
-                        <div class="col-md-8 expirience-offset">
-                            <div class="expirience_right">
-                                <h3 class="expirience_title">Formateur</h3>
-                                <span class="expirience_desc">
-								    Formateur dans le développement Web (HTML, CSS, JavaScript, WordPress) pour les énarques. Initiation à l'utilisation de différents logiciels pour la création de site Web (SublimeText, VisualStudio Code, Mamp, Wamp).
-                                </span>
-                            </div>
-                        </div> <!--/.col-->
-                    </div> <!--/.row-->
-                </section> <!--/.expirience_item-->
-                <section class="experience_item accent-green">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="expirience_left accent-green">
-                                <div class="expirience_date">
-                                    <div class="start">
-                                        <span class="from date_label"></br></span>
-                                        <span class="from_date">Mars 2017</span>
-                                    </div>
-                                    <span class="blur_text">(3 Jours)</span>
-                                </div> <!--/.expirience date-->
-                                <div class="expirience_company">
-                                    <span class="company">Hacking Health Camp</span>
-                                    <span class="blur_text">Faculté de médecine, Strasbourg</span>
-                                </div> <!--/.expirience company-->
-                            </div> <!--/.expirience_left-->
-                        </div> <!--/.col-->
-                        <div class="col-md-8 expirience-offset">
-                            <div class="expirience_right">
-                                <h3 class="expirience_title">Bénévole</h3>
-                                <span class="expirience_desc">
-								    Organisation et déroulement de l'événement Hacking Health Camp 2017 à Strasbourg. Gestion des différentes inscriptions des équipes participantes, organisation du matériel ainsi que de la mise en place des salles machine.
-                                </span>
-                            </div>
-                        </div> <!--/.col-->
-                    </div> <!--/.row-->
-                </section> <!--/.expirience_item-->
-                <section class="experience_item accent-green">
-
-                    <!--row-->
-                    <div class="row">
-
-                        <!--col-md-4-->
-                        <div class="col-md-4">
-
-                            <!--expirience_left-->
-                            <div class="expirience_left accent-green">
-
-                                <!--expirience date-->
-                                <div class="expirience_date">
-                                    <div class="start">
-                                        <span class="from date_label">De</span>
-                                        <span class="from_date">Aoû 2016</span>
-                                    </div>
-                                    <div class="end">
-                                        <span class="to date_label">A</span>
-                                        <span class="from_date">Déc 2016</span>
-                                    </div>
-                                    <span class="blur_text">(5 mois)</span>
-                                </div> <!--/.expirience date-->
-
-                                <!--expirience company-->
-                                <div class="expirience_company">
-                                    <span class="company">LM Media Corp</span>
-                                    <span class="blur_text">Strasbourg, France</span>
-                                </div> <!--/.expirience company-->
-
-                            </div> <!--/.expirience_left-->
-
-                        </div> <!--/.col-->
-
-                        <!--col-md-8-->
-                        <div class="col-md-8 expirience-offset">
-
-                            <div class="expirience_right">
-                                <h3 class="expirience_title">Android developer - VR Technology</h3>
-                                <span class="expirience_desc">
-								    Start-up strasbourgeoise au cœur de la réalité virtuel. Création de plusieurs applications Android à l'aide du langage Java.
-                                </span>
-                            </div>
-
-                        </div> <!--/.col-->
-
-                    </div> <!--/.row-->
-
-                </section> <!--/.expirience_item-->
-
-            </div> <!--/.experience list-->
-
-        </div> <!--/.container-->
-
-    </div>
-
-    <!-- - - - - - - - - - - - - /.experience - - - - - - - - - - - - -->
-
-    <!--container-->
-    <div class="container">
-
-
-        <!-- - - - - - - - - - - - - education - - - - - - - - - - - - -->
-
-        <div class="education section anchor-offset offset-top" id="education">
-
-            <!--row-->
-            <div class="row">
-
-                <!--col-md-4-->
-                <div class="col-md-4">
-
-                    <!--education left-->
-                    <div class="education_left offset-left">
-                        <h2 class="accent-green">formation</h2>
-
-                        <ul class="education_tab_list">
-                            <li class="education_tab_item accent-green active-education"><a href="#oxford"
-                                                                                            class="education_tab_link">EPITECH</a>
-                            </li>
-                            <li class="education_tab_item accent-green"><a href="#cambridge" class="education_tab_link">Saint-Bénigne</a>
-                            </li>
-                        </ul>
-
-                    </div> <!--/.education left-->
-                </div> <!--/.col-->
-
-                <!--col-md-6-->
-                <div class="col-md-8">
-
-                    <!--education right-->
-                    <div class="education_right">
-
-                        <!--education tab-->
-                        <div class="education-tab active-education-tab" id="oxford">
-
-                            <h3 class="education_tab_title accent-green"><i class="material-icons">&#xE84F;</i> EPITECH
-                                - European Institute of Technology</h3>
-
-                            <div class="education_period">
-                                <div class="education_period_start">
-                                    <span class="education_period_label">De</span>
-                                    <span class="education_period_month">2015</span>
-                                </div>
-                                <div class="education_period_end">
-                                    <span class="education_period_label">A</span>
-                                    <span class="education_period_month">2020</span>
-                                </div>
-                            </div>
-
-                            <p class="education_tab_desc">
-                                EPITECH BAC +2, Expert en Technologies de l'Information.</br></br>
-                                Activité et associations :</br>
-                                EPISEG-MOOVE (association de théâtre)</br>
-                                BDS Wolfgang (Bureau des Sports)</br>
-                                BDM (M.A.O, Bureau de la Musique)</br>
-                            </p>
-
-                        </div> <!--/.education tab-->
-
-                        <!--education tab-->
-                        <div class="education-tab" id="cambridge">
-
-                            <h3 class="education_tab_title accent-green"><i class="material-icons">&#xE84F;</i>
-                                Lycée Saint-Bénigne</h3>
-
-                            <div class="education_period">
-                                <div class="education_period_start">
-                                    <span class="education_period_label">De</span>
-                                    <span class="education_period_month">2009</span>
-                                </div>
-                                <div class="education_period_end">
-                                    <span class="education_period_label">A</span>
-                                    <span class="education_period_month">2012</span>
-                                </div>
-                            </div>
-
-                            <p class="education_tab_desc">
-                                Obtentiont du Baccalauréat S.E.N.</br>Systèmes Electroniques et Numériques.
-                            </p>
-
-                        </div> <!--/.education tab-->
-
-                        <!--education tab-->
-                        <div class="education-tab" id="mit">
-
-                            <h3 class="education_tab_title accent-green"><i class="material-icons">&#xE84F;</i> MIT</h3>
-
-                            <div class="education_period">
-                                <div class="education_period_start">
-                                    <span class="education_period_label">from</span>
-                                    <span class="education_period_month">oct 2015</span>
-                                </div>
-                                <div class="education_period_end">
-                                    <span class="education_period_label">to</span>
-                                    <span class="education_period_month">Nov 2016</span>
-                                </div>
-                            </div>
-
-                            <p class="education_tab_desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus sollicitudin turpis
-                                sollicitudin maximus. Proin vitae bibendum ex. Proin imperdiet massa tempus, dignissim
-                                ipsum sit amet, elementum est. Nunc et ex augue. Suspendisse pretium nisi viverra
-                                dapibus auctor. Fusce nonurnaquam. Morbi faucibus non leo vel aliquam. Suspendisse
-                                potenti. Vivamus vel m
-                            </p>
-
-                        </div> <!--/.education tab-->
-
-                        <!--education tab-->
-                        <div class="education-tab" id="adobe">
-
-                            <h3 class="education_tab_title accent-green"><i class="material-icons">&#xE84F;</i> Adobe
-                                Certification</h3>
-
-                            <div class="education_period">
-                                <div class="education_period_start">
-                                    <span class="education_period_label">from</span>
-                                    <span class="education_period_month">oct 2015</span>
-                                </div>
-                                <div class="education_period_end">
-                                    <span class="education_period_label">to</span>
-                                    <span class="education_period_month">Nov 2016</span>
-                                </div>
-                            </div>
-
-                            <p class="education_tab_desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus sollicitudin turpis
-                                sollicitudin maximus. Proin vitae bibendum ex. Proin imperdiet massa tempus, dignissim
-                                ipsum sit amet, elementum est. Nunc et ex augue. Suspendisse pretium nisi viverra
-                                dapibus auctor. Fusce nonurnaquam. Morbi faucibus non leo vel aliquam. Suspendisse
-                                potenti. Vivamus vel m
-                            </p>
-
-                        </div> <!--/.education tab-->
-
-                        <!--education tab-->
-                        <div class="education-tab" id="autodesk">
-
-                            <h3 class="education_tab_title accent-green"><i class="material-icons">&#xE84F;</i> Autodesk
-                                Certification</h3>
-
-                            <div class="education_period">
-                                <div class="education_period_start">
-                                    <span class="education_period_label">from</span>
-                                    <span class="education_period_month">oct 2015</span>
-                                </div>
-                                <div class="education_period_end">
-                                    <span class="education_period_label">to</span>
-                                    <span class="education_period_month">Nov 2016</span>
-                                </div>
-                            </div>
-
-                            <p class="education_tab_desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus sollicitudin turpis
-                                sollicitudin maximus. Proin vitae bibendum ex. Proin imperdiet massa tempus, dignissim
-                                ipsum sit amet, elementum est. Nunc et ex augue. Suspendisse pretium nisi viverra
-                                dapibus auctor. Fusce nonurnaquam. Morbi faucibus non leo vel aliquam. Suspendisse
-                                potenti. Vivamus vel m
-                            </p>
-
-                        </div> <!--/.education tab-->
-
-                    </div> <!--/.education right-->
-
-                </div> <!--/.col-->
-
-            </div> <!--/.row-->
-
-        </div>
-        </br></br></br>
-    </div>
-
-
-    <!-- - - - - - - - - - - - - /.education - - - - - - - - - - - - -->
-
-    <!-- - - - - - - - - - - - - project - - - - - - - - - - - - -->
-
-    <div class="project frontend_project">
-
-        <!--container-->
-        <div class="container">
-
-            <!--row-->
-            <div class="row">
-
-                <!--col-md-4-->
-                <div class="col-md-4">
-
-                    <div class="project_item">
-                        <div class="project_img"><img src="img/project1.jpg" alt="project"></div>
-
-                        <div class="project_top">
-                            <h3 class="project_title">start new project</h3>
-                            <span class="project_date">November 15</span>
-                        </div>
-
-                        <div class="project_bottom">
-								<span class="project_desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget elit ornare, aliquet lectus ac, maximus enim.
-								</span>
-                            <a href="#" class="project_btn accent-green">
-                                <span>read more</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                <div class="paddText anim">
+                    <div>
+                        <h2 class="subtitle">
+                            Independent advisory firm specialized <br />in strategic <span style="color: #CB9910">&</span>
+                            financial transactions
+                        </h2>
                     </div>
-
-                </div> <!--/.col-->
-
-                <!--col-md-4-->
-                <div class="col-md-4">
-
-                    <div class="project_item">
-                        <div class="project_img"><img src="img/project2.jpg" alt="project"></div>
-
-                        <div class="project_top">
-                            <h3 class="project_title">start new project</h3>
-                            <span class="project_date">November 15</span>
+                    <div class="line"></div>
+                    <div class="columns subTitleWord">
+                        <div class="column">
+                            <h3 class="subtitle2">M&A</h3>
                         </div>
-
-                        <div class="project_bottom">
-								<span class="project_desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget elit ornare, aliquet lectus ac, maximus enim.
-								</span>
-                            <a href="#" class="project_btn accent-green">
-                                <span>read more</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
+                        <div class="column is-6">
+                            <h3 class="subtitle2">Strategic advisory</h3>
                         </div>
-                    </div>
-
-                </div> <!--/.col-->
-
-                <!--col-md-4-->
-                <div class="col-md-4">
-
-                    <div class="project_item">
-                        <div class="project_img"><img src="img/project3.jpg" alt="project"></div>
-
-                        <div class="project_top">
-                            <h3 class="project_title">start new project</h3>
-                            <span class="project_date">November 15</span>
-                        </div>
-
-                        <div class="project_bottom">
-								<span class="project_desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget elit ornare, aliquet lectus ac, maximus enim.
-								</span>
-                            <a href="#" class="project_btn accent-green">
-                                <span>read more</span><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                            </a>
+                        <div class="column">
+                            <h3 class="subtitle2">ICO</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="contact section anchor-offset" id="contact">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="contact_title offset-left">
-                        <h2 class="accent-green">CONTACT</h2>
-                        <span class="contact_desc">Pour toutes informations suplémentaire, vous pouvez me contacter par mail ou par formulaire.
-                        </span>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="contact_form">
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 contact_left_column">
-                                    <div class="group form_group">
-                                        <input type="text" required class="contact_input accent-green" id="name">
-                                        <span class="bar accent-green"></span>
-                                        <label class="media_label accent-green">Nom / Prénom</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 contact_right_column">
-                                    <div class="group form_group">
-                                        <input type="email" required class="contact_input accent-green">
-                                        <span class="bar accent-green"></span>
-                                        <label class="media_label accent-green">Email</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="group form_group textarea_wrap">
-                                        <textarea class="message_input accent-green" required></textarea>
-                                        <span class="bar accent-green"></span>
-                                        <label class="media_label accent-green">Message</label>
-                                    </div>
-                                    <button type="submit" class="btn submit-btn accent-green"><span>Envoyer</span><i
-                                            class="material-icons accent-green">&#xE163;</i></button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+        <footer class="footer transFooter padd">
+            <div class="content has-text-right">
+                <h2 class="subtitle subFooter">© 2018 Scalene Partners -
+                    <a class="subFooter" href="mention.php"> Terms of Use</a>
+                </h2>
             </div>
-        </div>
-    </div>
-</main>
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <span class="footer_name">Umut Sevinc</span>
-                <span class="copyright">Copyright 2017</span>
-            </div>
-        </div>
-    </div>
-</footer>
-<div id="hellopreloader">
-    <div id="hellopreloader_preload"></div>
-</div>
-
-<!-- jquery & libs
-============================================ -->
-<script src="libs/jquery/jquery-3.2.0.min.js"></script>
-<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="libs/formstyler/jquery.formstyler.min.js"></script>
-<script src="libs/parallax/jquery.parallax-1.1.3.js"></script>
-
-<!-- script plugin
-============================================ -->
-<script src="js/script.plugin.js"></script>
-
-<!-- script custom
-============================================ -->
-<script src="js/script.custom.js"></script>
-
-<script src="cookiechoices.js"></script>
-<script>document.addEventListener('DOMContentLoaded', function (event) {
-    cookieChoices.showCookieConsentBar('Actuellement à la recherche d′un poste à temps partiel pour Septembre 2017.', 'x', 'Me contacter', 'https://umutsevinc.github.io/index.html#contact');
-});
-</script>
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-100233464-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
-
+        </footer>
+    </section>
 </body>
+
 </html>
+<?php
+    unset($_SESSION["errors"]);
+    unset($_SESSION["input"]);
+    unset($_SESSION["success"]);
+?>
