@@ -190,7 +190,7 @@ function IsInjected($str)
 </head>
 
 <body>
-  <?php
+    <?php
   if(!empty($errors))
   {
   	echo nl2br($errors);
@@ -215,10 +215,10 @@ function IsInjected($str)
                         <a class="navbar-item hvr-overline-reveal" href="team.html">
                             OUR TEAM
                         </a>
-                        <a class="navbar-item hvr-overline-reveal is-active" href="join.html">
+                        <a class="navbar-item hvr-overline-reveal is-active" href="join_us.html">
                             JOIN US
                         </a>
-                        <a class="navbar-item hvr-overline-reveal" href="https://bulma.io/">
+                        <a class="navbar-item hvr-overline-reveal" href="">
                             CONTACT
                         </a>
                     </div>
@@ -263,97 +263,97 @@ function IsInjected($str)
                                     </div>
                                 </div>
                             </div>
-                            <form method="POST" name="email_form_with_php"
-                            action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" enctype="multipart/form-data">
-                            <div class="field is-horizontal">
-                                <div class="field-body">
-                                    <div class="field">
-                                        <label class="label">First Name</label>
-                                        <p class="control is-expanded has-icons-left">
-                                            <div class="control">
-                                                <input class="input" type="text" name="firstname">
-                                            </div>
-                                        </p>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Last Name</label>
-                                        <p class="control is-expanded has-icons-left has-icons-right">
-                                            <div class="control">
-                                                <input class="input" type="text" name="lastname">
-                                            </div>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="field is-horizontal">
-                                <div class="field-body">
-                                    <div class="field">
-                                        <label class="label">E-mail address</label>
-                                        <p class="control is-expanded has-icons-left">
-                                            <div class="control">
-                                                <input class="input" type="text" name="email">
-                                            </div>
-                                        </p>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Cellular number</label>
-                                        <p class="control is-expanded has-icons-left has-icons-right">
-                                            <div class="control">
-                                                <input class="input" type="text" name="phone">
-                                            </div>
-                                        </p>
+                            <form method="POST" name="email_form_with_php" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>"
+                                enctype="multipart/form-data">
+                                <div class="field is-horizontal">
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <label class="label">First Name</label>
+                                            <p class="control is-expanded has-icons-left">
+                                                <div class="control">
+                                                    <input class="input" type="text" name="firstname">
+                                                </div>
+                                            </p>
+                                        </div>
+                                        <div class="field">
+                                            <label class="label">Last Name</label>
+                                            <p class="control is-expanded has-icons-left has-icons-right">
+                                                <div class="control">
+                                                    <input class="input" type="text" name="lastname">
+                                                </div>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="field is-horizontal">
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <label class="label">E-mail address</label>
+                                            <p class="control is-expanded has-icons-left">
+                                                <div class="control">
+                                                    <input class="input" type="text" name="email">
+                                                </div>
+                                            </p>
+                                        </div>
+                                        <div class="field">
+                                            <label class="label">Cellular number</label>
+                                            <p class="control is-expanded has-icons-left has-icons-right">
+                                                <div class="control">
+                                                    <input class="input" type="text" name="phone">
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="field">
-                                <label class="label">Message</label>
-                                <div class="control">
-                                    <textarea class="textarea" name="message"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="field is-horizontal">
-                                <div class="field-body">
-                                    <div class="field">
-                                        <label class="label">Resume</label>
-                                        <p class="control is-expanded has-icons-left">
-                                            <div class="control">
-                                                <input class="input" type="file" name="resume">
-                                            </div>
-                                        </p>
-                                    </div>
-                                    <div class="field">
-                                        <label class="label">Cover letter</label>
-                                        <p class="control is-expanded has-icons-left has-icons-right">
-                                            <div class="control">
-                                                <input class="input" type="file" name="cover_letter">
-                                            </div>
-                                        </p>
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" name="message"></textarea>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="field is-grouped">
-                                <div class="control">
-                                    <input type="submit" name="submit" class="button is-link"></button>
+                                <div class="field is-horizontal">
+                                    <div class="field-body">
+                                        <div class="field">
+                                            <label class="label">Resume</label>
+                                            <p class="control is-expanded has-icons-left">
+                                                <div class="control">
+                                                    <input class="input" type="file" name="resume">
+                                                </div>
+                                            </p>
+                                        </div>
+                                        <div class="field">
+                                            <label class="label">Cover letter</label>
+                                            <p class="control is-expanded has-icons-left has-icons-right">
+                                                <div class="control">
+                                                    <input class="input" type="file" name="cover_letter">
+                                                </div>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                          </form>
-                          <script language="JavaScript">
-                          // Code for validating the form
-                          // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-                          // for details
-                          var frmvalidator  = new Validator("email_form_with_php");
-                          frmvalidator.addValidation("firstname","req","Please provide your First name");
-                          frmvalidator.addValidation("lastname","req","Please provide your Last name");
 
-                          frmvalidator.addValidation("email","req","Please provide your email");
-                          frmvalidator.addValidation("email","email","Please enter a valid email address");
-                          frmvalidator.addValidation("resume", "req", "Please upload your resume");
-                          frmvalidator.addValidation("phone", "req", "Please enter your phone number");
-                          frmvalidator.addValidation("phone", "numeric", "Please enter a valid phone number");
-                          </script>
+                                <div class="field is-grouped">
+                                    <div class="control">
+                                        <input type="submit" name="submit" class="button is-link"></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <script language="JavaScript">
+                                // Code for validating the form
+                                // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                                // for details
+                                var frmvalidator = new Validator("email_form_with_php");
+                                frmvalidator.addValidation("firstname", "req", "Please provide your First name");
+                                frmvalidator.addValidation("lastname", "req", "Please provide your Last name");
+
+                                frmvalidator.addValidation("email", "req", "Please provide your email");
+                                frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+                                frmvalidator.addValidation("resume", "req", "Please upload your resume");
+                                frmvalidator.addValidation("phone", "req", "Please enter your phone number");
+                                frmvalidator.addValidation("phone", "numeric", "Please enter a valid phone number");
+                            </script>
                         </div>
                     </div>
                 </div>
