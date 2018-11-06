@@ -216,15 +216,7 @@ function IsInjected($str)
   }
   ?>
     <section class="hero is-fullheight join">
-			<?php
-			if ($success == TRUE)
-			{
-				echo '<div class="notification is-primary">
-								<button class="delete"></button>
-								Application successful, we will contact you soon.
-							</div>';
-		}
-		?>
+
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
@@ -253,6 +245,15 @@ function IsInjected($str)
             </div>
             </div>
         </nav>
+				<?php
+				if ($success == TRUE)
+				{
+					echo '<div class="notification is-primary" style="position:fixed !important; top:0px; left:0; right:0; z-index:10;">
+									<button class="delete"></button>
+									Application successful, we will contact you soon.
+								</div>';
+			}
+			?>
         <div class="hero-body">
             <div class="columns has-text-centered">
                 <div class="logoContainer column">
