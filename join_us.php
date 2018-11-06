@@ -227,7 +227,7 @@ function IsInjected($str)
 		?>
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.php">
+                <a class="navbar-item" href="index.html">
                     <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">

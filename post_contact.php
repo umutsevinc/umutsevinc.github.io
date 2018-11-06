@@ -49,9 +49,9 @@ session_start();
 if (!empty($errors)) {
     $_SESSION["errors"] = $errors;
     $_SESSION["input"] = $_POST;
-    header('Location: index.php#contact');
+    header('Location: index.html#contact');
 } else {
     $_SESSION["success"] = true;
     mail($dest, $object, $body, $headers);
-    header('Location: index.php#contact');
+    header('Location: index.html#contact');
 }

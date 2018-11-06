@@ -49,7 +49,7 @@
 </head>
 
 <body>
-    <section class="hero is-fullheight join">
+    <section class="hero is-fullheight contact">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
@@ -70,7 +70,7 @@
                         <a class="navbar-item hvr-overline-reveal" href="join_us.php">
                             JOIN US
                         </a>
-                        <a class="navbar-item hvr-overline-reveal is-active" href="contact.php">
+                        <a class="navbar-item hvr-overline-reveal is-active" href="contact.html">
                             CONTACT
                         </a>
                     </div>
@@ -78,32 +78,40 @@
             </div>
             </div>
         </nav>
-        <div class="hero-body">
-            <div class="columns has-text-centered">
-                <div class="column">
-                    <h2 class="titleTeam anim">
-                        CONTACT <span style="font-family: Raleway-light">US</span></h2>
-                </div>
-                <div class="paddText column is-7">
-                    <div class="column">
-                        <div class="text">
-                            <h2 class="subtitleJoin">If you have any questions, you can contact us by e-mail at the
-                                following address: contact@scalenepartners.com</h2>
+
+        <div class="hero-body paddTop">
+            <div class="container has-text-centered">
+                <div class="paddText">
+                    <div class="columns phoneTeam">
+                        <div class="columnImg is-half overlay-image">
+                            <h2 class="titleTeam anim">
+                                CONTACT <span style="font-family: Raleway-light">US</span></h2>
                         </div>
-                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY
-    &q=Space+Needle,Seattle+WA"
-                            allowfullscreen>
-                        </iframe>
+                        <div class="columnImg is-half overlay-image">
+                            <div class="column">
+                                <h2 class="infoContactTitle">SCALENE PARTNERS</span></h2>
+                            </div>
+                            <div class="column">
+                                <h2 class="infoContactTitle2">16 cours Albert 1er<br />
+                                    75008 Paris<br />
+                                    France</h2>
+                            </div>
+                            <div class="column">
+                                <h2 class="infoContactTitle2">If you have any questions, you can contact us by
+                                    e-mail at the following address: <a class="contact-reveal" href="mailto:contact@scalenepartners.com">contact@scalenepartners.com</a></h2>
+                            </div>
+                            <div class="column">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas"><iframe class="mapouter" id="gmap_canvas" src="https://maps.google.com/maps?q=16%20cours%20Albert%201er%2075008%20Paris%20France&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- <footer class="footer transFooter padd">
-                <div class="content has-text-right">
-                    <h2 class="subtitle subFooter">© 2018 Scalene Partners -
-                        <a class="subFooter" href="mention.php"> Terms of Use</a>
-                    </h2>
-                </div>
-            </footer> -->
             </div>
+        </div>
     </section>
 </body>
 

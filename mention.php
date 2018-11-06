@@ -17,7 +17,7 @@
     <link href="Assets/ico/ico72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
     <link href="Assets/ico/ico57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
     <link href="Assets/ico/ico.ico" rel="shortcut icon">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
     <script>
@@ -58,15 +58,15 @@
                             <p>Registration number at the Paris RCS : 830 765 996</p>
                             <p>VAT N ° : FR79830765996</p>
                             </br></br>
-                            <p>Scalene Partners relève des statuts réglementés de 
-                            Conseiller</p><p>en investissements financiers, référencé sous le 
-                            numéro D017926</p>par la Chambre Nationale des Conseillers en 
-                            Investissements Financiers</p><p>(www.cncif.org), association agréée 
+                            <p>Scalene Partners relève des statuts réglementés de
+                            Conseiller</p><p>en investissements financiers, référencé sous le
+                            numéro D017926</p>par la Chambre Nationale des Conseillers en
+                            Investissements Financiers</p><p>(www.cncif.org), association agréée
                             par l’Autorité des Marchés Financiers – n° ORIAS : 17006173</p>
                         </div>
                         </br></br>
                         <div class="content">
-                                <a href="index.php"> <h1 class="title is-5 is-brand">Back to home</h1></a>
+                                <a href="index.html"> <h1 class="title is-5 is-brand">Back to home</h1></a>
                         </div>
                     </div>
                 </div>
