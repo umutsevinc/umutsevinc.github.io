@@ -182,7 +182,7 @@ function IsInjected($str)
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
-    <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+    <script language="JavaScript" src="JS/gen_validatorv31.js" type="text/javascript"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
