@@ -109,7 +109,7 @@ if(isset($_POST['submit']))
 		$mailer = new Swift_Mailer($transport);
 
 		$message = (new Swift_Message('New application received'))
-  	->setFrom([$your_email => 'Dev Dev'])
+  	->setFrom([$your_email => "$firstname $lastname"])
   	->setTo([$your_email => 'Dev Dev'])
   	->setBody($text)
 		->attach(Swift_Attachment::fromPath($path_of_resume))
