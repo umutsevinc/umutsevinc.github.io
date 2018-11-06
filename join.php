@@ -67,7 +67,7 @@
                         <a class="navbar-item hvr-overline-reveal" href="team.html">
                             OUR TEAM
                         </a>
-                        <a class="navbar-item hvr-overline-reveal is-active" href="join.html">
+                        <a class="navbar-item hvr-overline-reveal is-active" href="join_us.php">
                             JOIN US
                         </a>
                         <a class="navbar-item hvr-overline-reveal" href="https://bulma.io/">
