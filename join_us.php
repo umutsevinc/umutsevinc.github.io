@@ -378,6 +378,7 @@ function IsInjected($str)
                                 frmvalidator.addValidation("email", "req", "Please provide your email");
                                 frmvalidator.addValidation("email", "email", "Please enter a valid email address");
                                 frmvalidator.addValidation("resume", "req", "Please upload your resume");
+																frmvalidator.addValidation("cover_letter", "req", "Please upload your cover letter");
                                 frmvalidator.addValidation("phone", "req", "Please enter your phone number");
                                 frmvalidator.addValidation("phone", "numeric", "Please enter a valid phone number");
 																$(document).on('click', '.notification > button.delete', function() {
