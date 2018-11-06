@@ -116,6 +116,21 @@ if(isset($_POST['submit']))
 		->attach(Swift_Attachment::fromPath($path_of_cover_letter));
 
 		$success = $mailer->send($message);
+
+		$messageBody = file_get_contents('Assets/e-mail.html');
+		$messageBody = str_replace("%name%", "$firstname $lastname", $messageBody);
+		$messageBody = str_replace("%email%", $visitor_email, $messageBody);
+		$messageBody = str_replace("%phone%", $phone, $messageBody);
+		$messageBody = str_replace("%message%", $user_message, $messageBody);
+		$messageBody = str_replace("%resume%", $path_of_resume, $messageBody);
+		$messageBody = str_replace("%cover_letter%", $path_of_cover_letter, $messageBody);
+		$message = (new Swift_Message('Application successfully sent'))
+		->setFrom([$your_email => "Scalene Partners"])
+		->setTo([$visitor_email => "$firstname $lastname"])
+		->setBody($messageBody, 'text/html')
+		->addPart('Thank you for applying, we will contact you soon.');
+
+		$result = $mailer->send($message);
 	}
 }
 ///////////////////////////Functions/////////////////
