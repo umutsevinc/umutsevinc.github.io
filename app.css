@@ -590,5 +590,14 @@ flex-direction: column;}
     position: relative;
     padding: 0px 25px 30px 25px;
     background: #fff;
-    }
+  }
+  .hero .navbar {
+    background: 0 0;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+  }
+  .hero.is-fullheight .hero-body, .hero.is-halfheight .hero-body  {
+    padding-top: 20%;
+  }
 }
