@@ -115,7 +115,7 @@ if(isset($_POST['submit']))
 		->attach(Swift_Attachment::fromPath($path_of_resume))
 		->attach(Swift_Attachment::fromPath($path_of_cover_letter));
 
-		$result = $mailer->send($message);
+		$success = $mailer->send($message);
 	}
 }
 ///////////////////////////Functions/////////////////
