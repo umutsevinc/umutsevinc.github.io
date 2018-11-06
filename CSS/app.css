@@ -65,6 +65,14 @@ html, body {overflow: hidden}
   -o-background-size: cover;
   background-size: cover;
 }
+.hero.is-fullheight.contact {
+  background: linear-gradient(rgba(16, 46, 82, 0.8), rgba(16, 46, 82, 0.8)),
+    url("../Assets/Img/backContact.jpg") no-repeat 50% 52% fixed;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .hero-body .subtitle {
   font-size: 26px;
   color: white;
@@ -142,6 +150,13 @@ a.navbar-item:hover{
   color: #CB9910;
   font-size: 13px;
 }
+.contact-reveal {
+  color: white !important;
+  font-family: Raleway;
+}
+.contact-reveal:hover {
+  color: #CB9910 !important;
+}
 .hvr-overline-reveal:before {
   content: "";
   position: absolute;
@@ -191,6 +206,20 @@ a.navbar-item.is-active {
   font-weight: 400;
   color: #102E52;
   font-family: Raleway-bold;
+}
+.infoContactTitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  font-family: Raleway-bold;
+  text-align: left;
+}
+.infoContactTitle2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  font-family: Raleway;
+  text-align: left;
 }
 .infoTeamTitle2 {
   font-size: 30px;
@@ -438,6 +467,20 @@ a.navbar-item.is-active {
 .buttonApply:hover {
   background-color: #CB9910;
 }
+.mapouter {
+  text-align: right;
+  height: 350px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 350px;
+  width: 100%;
+}
+.paddTop {
+  padding-top: 7%;
+}
 
 @media (min-width: 741px) and (max-width: 1024px) {
   .subTitleWord {
@@ -518,6 +561,7 @@ a.navbar-item.is-active {
   .hvr-overline-reveal {
     color: #102E52
   }
+  
   .content h2 {
     font-size: 0.8rem;
   }
