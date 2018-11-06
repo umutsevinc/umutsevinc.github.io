@@ -97,9 +97,9 @@ if(isset($_POST['submit']))
 		$visitor_email = $_POST['email'];
 		$user_message = $_POST['message'];
 		$to = $your_email;
-		$subject="New form submission";
+		$subject="New application form submission";
 		$from = $your_email;
-		$text = "A user  $name has sent you this message:\n $user_message\n $phone";
+		$text = "User $firstname $lastname has sent you this message: $user_message\n Phone #: $phone\n e-mail: $visitor_email";
     $phone = $_POST['phone'];
 
 		$transport = (new Swift_SmtpTransport('smtp.ionos.fr', 587, 'tls'))
@@ -112,6 +112,7 @@ if(isset($_POST['submit']))
   	->setFrom([$your_email => "$firstname $lastname"])
   	->setTo([$your_email => 'Dev Dev'])
   	->setBody($text)
+		->setReplyTo($visitor_email)
 		->attach(Swift_Attachment::fromPath($path_of_resume))
 		->attach(Swift_Attachment::fromPath($path_of_cover_letter));
 
@@ -168,10 +169,10 @@ function IsInjected($str)
     <title>Scalene Partners</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
-    <link rel="stylesheet" href="./app.css">
-    <link rel="stylesheet" href="./hover/hover.css">
-    <link rel="stylesheet" href="./hover/hover.css.map">
-    <link rel="stylesheet" href="./hover/hover-min.css">
+    <link rel="stylesheet" href="./CSS/app.css">
+    <link rel="stylesheet" href="./CSS/hover/hover.css">
+    <link rel="stylesheet" href="./CSS/hover/hover.css.map">
+    <link rel="stylesheet" href="./CSS/hover/hover-min.css">
 
     <link href="Assets/ico/ico144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
     <link href="Assets/ico/ico114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
@@ -215,10 +216,19 @@ function IsInjected($str)
   }
   ?>
     <section class="hero is-fullheight join">
+			<?php
+			if ($success == TRUE)
+			{
+				echo '<div class="notification is-primary">
+								<button class="delete"></button>
+								Application successful, we will contact you soon.
+							</div>';
+		}
+		?>
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
-                    <img src="./Assets/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
+                <a class="navbar-item" href="index.php">
+                    <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -229,13 +239,13 @@ function IsInjected($str)
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <a class="navbar-item hvr-overline-reveal" href="team.html">
+                        <a class="navbar-item hvr-overline-reveal" href="team.php">
                             OUR TEAM
                         </a>
                         <a class="navbar-item hvr-overline-reveal is-active" href="join_us.php">
                             JOIN US
                         </a>
-                        <a class="navbar-item hvr-overline-reveal" href="">
+                        <a class="navbar-item hvr-overline-reveal" href="contact.php">
                             CONTACT
                         </a>
                     </div>
@@ -243,15 +253,6 @@ function IsInjected($str)
             </div>
             </div>
         </nav>
-				<?php
-				if ($success == TRUE)
-				{
-					echo '<div class="notification is-primary">
-  								<button class="delete"></button>
-  								Application successful, we will contact you soon.
-								</div>';
-			}
-			?>
         <div class="hero-body">
             <div class="columns has-text-centered">
                 <div class="logoContainer column">
@@ -280,7 +281,7 @@ function IsInjected($str)
                         <div class="centerModal">
                             <div class="column">
                                 <div class="column">
-                                    <a href="#close" title="Close" class="closeJoin"><img class="crossImg" src="./Assets/cross2.png"
+                                    <a href="#close" title="Close" class="closeJoin"><img class="crossImg" src="./Assets/Icons/cross2.png"
                                             alt="close" /></a>
                                 </div>
                                 <div class="columns">

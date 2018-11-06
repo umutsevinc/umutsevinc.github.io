@@ -64,13 +64,13 @@
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-end">
                     <div class="navbar-item">
-                        <a class="navbar-item hvr-overline-reveal" href="team.html">
+                        <a class="navbar-item hvr-overline-reveal" href="team.php">
                             OUR TEAM
                         </a>
-                        <a class="navbar-item hvr-overline-reveal" href="join_us.html">
+                        <a class="navbar-item hvr-overline-reveal" href="join_us.php">
                             JOIN US
                         </a>
-                        <a class="navbar-item hvr-overline-reveal is-active" href="contact.html">
+                        <a class="navbar-item hvr-overline-reveal is-active" href="contact.php">
                             CONTACT
                         </a>
                     </div>
