@@ -99,8 +99,8 @@ if(isset($_POST['submit']))
 		$to = $your_email;
 		$subject="New application form submission";
 		$from = $your_email;
-		$text = "User $firstname $lastname has sent you this message: $user_message\n Phone #: $phone\n e-mail: $visitor_email";
-    $phone = $_POST['phone'];
+		$phone = $_POST['phone'];
+		$text = "User $firstname $lastname has sent you this message: $user_message\n Phone #: $phone \n e-mail: $visitor_email";
 
 		$transport = (new Swift_SmtpTransport('smtp.ionos.fr', 587, 'tls'))
 		->setUsername('dev@scalenepartners.com')
