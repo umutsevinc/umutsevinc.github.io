@@ -51,7 +51,7 @@
     <section class="hero is-fullheight team">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
+                <a class="navbar-item" href="index.php">
                     <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -96,18 +96,20 @@
                                         </div>
                                     </div>
                                 </a>
-                                <div id="openModalSamuel" class="modalDialog">
+                                <div id="openModalSamuel" class="modalDialogSamuel">
                                     <div class="rightModal">
-                                        <a href="#close" title="Close" class="close2"><img class="crossImg" src="./Assets/Icons/cross.png"
-                                                alt="close" /></a>
-                                        <div class="teamHeader">
-                                            <img class="imageSamuel" src="./Assets/Img/SamuelColor.jpg" alt="Samuel Assaraf" />
+                                        <div class="backColorTeam">
+                                            <a href="#close" title="Close" class="close2"><img class="crossImg" src="./Assets/Icons/cross.png"
+                                                    alt="close" /></a>
+                                            <div class="teamHeader">
+                                                <img class="imageSamuel" src="./Assets/Img/SamuelColor.jpg" alt="Samuel Assaraf" />
+                                            </div>
                                         </div>
                                         <div class="column teamTitle">
                                             <h2 class="infoTeamTitle">SAMUEL <span style="font-family: Raleway-light">ASSARAF</span></h2>
                                             <h2 class="infoTeamTitle2">Managing Partner</h2>
                                         </div>
-                                        <div class="columns paddModal">
+                                        <div class="columns paddModal modalDialogScroll">
                                             <div class="column is-7">
                                                 <p class="descriptionText">Samuel Assaraf is Managing Partner and
                                                     co-founder of Scalene Partner.</p><br />
@@ -167,12 +169,14 @@
                                         </div>
                                     </div>
                                 </a>
-                                <div id="openModalSimon" class="modalDialog">
-                                    <div>
-                                        <a href="#close" title="Close" class="close"><img class="crossImg" src="./Assets/Icons/cross.png"
-                                                alt="close" /></a>
-                                        <div class="teamHeader">
-                                            <img class="imageSamuel" src="./Assets/Img/SimonColor.jpg" alt="Simon Eischen" />
+                                <div id="openModalSimon" class="modalDialogSimon">
+                                    <div class="rightModal">
+                                        <div class="backColorTeam">
+                                            <a href="#close" title="Close" class="close"><img class="crossImg" src="./Assets/Icons/cross.png"
+                                                    alt="close" /></a>
+                                            <div class="teamHeader">
+                                                <img class="imageSamuel" src="./Assets/Img/SimonColor.jpg" alt="Simon Eischen" />
+                                            </div>
                                         </div>
                                         <div class="column teamTitle">
                                             <h2 class="infoTeamTitle">SIMON <span style="font-family: Raleway-light">EISCHEN</span></h2>
@@ -228,6 +232,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <footer class="footer transFooter padd">
             <div class="content has-text-right">

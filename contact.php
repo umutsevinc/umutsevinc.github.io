@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 <!DOCTYPE html>
-<html>
+<html class="contactPage">
 
 <head>
     <meta charset="utf-8">
@@ -52,7 +52,7 @@
     <section class="hero is-fullheight contact">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
+                <a class="navbar-item" href="index.php">
                     <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">

@@ -159,7 +159,7 @@ function IsInjected($str)
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html class="joinPage">
 
 <head>
     <meta charset="utf-8">
@@ -218,7 +218,7 @@ function IsInjected($str)
     <section class="hero is-fullheight join">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
+                <a class="navbar-item" href="index.php">
                     <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
                 </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -279,13 +279,13 @@ function IsInjected($str)
                             </div>
                             <div id="openModalJoin" class="modalJoin">
                                 <div class="centerModal">
-                                    <div class="column">
-                                        <div class="column">
+                                    <div class="column backColor">
+                                        <div class="column iconFix">
                                             <a href="#close" title="Close" class="closeJoin"><img class="crossImg" src="./Assets/Icons/cross2.png"
                                                     alt="close" /></a>
                                         </div>
                                         <div class="columns">
-                                            <div class="column">
+                                            <div class="column titleFix">
                                                 <h2 class="infoTeamTitle"><span style="font-family: Raleway-light">APPLICATION</span></h2>
                                             </div>
                                         </div>
