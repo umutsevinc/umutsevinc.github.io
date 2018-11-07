@@ -109,7 +109,7 @@
                                             <h2 class="infoTeamTitle">SAMUEL <span style="font-family: Raleway-light">ASSARAF</span></h2>
                                             <h2 class="infoTeamTitle2">Managing Partner</h2>
                                         </div>
-                                        <div class="columns paddModal modalDialogScroll">
+                                        <div id="colHide" class="columns paddModal modalDialogScroll">
                                             <div class="column is-7">
                                                 <p class="descriptionText">Samuel Assaraf is Managing Partner and
                                                     co-founder of Scalene Partner.</p><br />
@@ -182,7 +182,7 @@
                                             <h2 class="infoTeamTitle">SIMON <span style="font-family: Raleway-light">EISCHEN</span></h2>
                                             <h2 class="infoTeamTitle2">Managing Partner</h2>
                                         </div>
-                                        <div class="columns paddModal">
+                                        <div id="colHide" class="columns paddModal">
                                             <div class="column is-7">
                                                 <p class="descriptionText">Simon Eischen is Managing Partner and
                                                     co-founder

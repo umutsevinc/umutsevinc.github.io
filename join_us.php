@@ -363,7 +363,7 @@ function IsInjected($str)
 
                                         <div class="field is-grouped">
                                             <div class="control">
-                                                <input type="submit" name="submit" value="Submit" class="button is-link"></button>
+                                                <input type="submit" name="submit" value="Send" class="button is-link"></button>
                                             </div>
                                         </div>
                                     </form>

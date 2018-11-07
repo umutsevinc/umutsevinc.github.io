@@ -523,6 +523,16 @@ a.navbar-item.is-active {
 .paddTop {
   padding-top: 7%;
 }
+.file-name {
+  border-color: #dbdbdb;
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  display: block;
+  max-width: 14.5em;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
 
 @media (min-width: 741px) and (max-width: 1024px) {
   .subTitleWord {
@@ -605,9 +615,8 @@ a.navbar-item.is-active {
   .hvr-overline-reveal {
     color: #102E52
   }
-  
   .content h2 {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .hero-body .subtitle {
     font-size: 1.2rem;
@@ -696,7 +705,7 @@ a.navbar-item.is-active {
     width: 100%;
     height: 100%;
     position: relative;
-    padding: 100px 25px 50px 25px;
+    padding: 130px 25px 50px 25px;
     background: #fff;
     overflow: scroll !important;
   }
@@ -759,5 +768,14 @@ a.navbar-item.is-active {
     justify-content: space-between;
     display: flex;
     margin-left: 1%;
-    }
+  }
+  #colHide.columns {
+    margin: 0%;
+    padding: 5%;
+  }
+  .titleTeam {
+    font-size: 30px;
+    color: white;
+    font-family: Raleway-bold;
+  }
 }
