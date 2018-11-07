@@ -73,6 +73,16 @@ html, body {overflow: hidden}
   -o-background-size: cover;
   background-size: cover;
 }
+.hero.is-fullheight.mention {
+  background: linear-gradient(rgba(16, 46, 82, 0.8), rgba(16, 46, 82, 0.8));
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html, body.mentionBody {
+  overflow: visible !important;
+}
 .hero-body .subtitle {
   font-size: 26px;
   color: white;
@@ -221,6 +231,13 @@ a.navbar-item.is-active {
   font-family: Raleway;
   text-align: left;
 }
+.infoMentionsTitle2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  font-family: Raleway;
+  text-align: justify;
+}
 .infoTeamTitle2 {
   font-size: 30px;
   font-weight: 400;
@@ -315,7 +332,7 @@ a.navbar-item.is-active {
 .centerModal {
   left: 20%;
   right: 20%;
-  top: 5%;
+  top: 20%;
   bottom: 20%;
 }
 .modalDialog > div {
@@ -634,13 +651,19 @@ a.navbar-item.is-active {
     right: 0;
     top: 0;
     bottom: 0%;
+    overflow: scroll !important;
+
   }
   .modalJoin > div {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     padding: 0px 25px 30px 25px;
     background: #fff;
+    overflow: scroll !important;
+  }
+  .modalJoin {
+    overflow: scroll !important;
   }
   .hero .navbar {
     position: fixed;
@@ -649,5 +672,8 @@ a.navbar-item.is-active {
   }
   .hero.is-fullheight .hero-body, .hero.is-halfheight .hero-body  {
     padding-top: 20%;
+  }
+  .mobileScroll {
+    overflow: hidden;
   }
 }

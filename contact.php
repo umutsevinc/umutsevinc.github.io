@@ -81,7 +81,7 @@
 
         <div class="hero-body paddTop">
             <div class="container has-text-centered">
-                <div class="paddText">
+                <div>
                     <div class="columns phoneTeam">
                         <div class="columnImg is-half overlay-image">
                             <h2 class="titleTeam anim">
@@ -112,6 +112,13 @@
                 </div>
             </div>
         </div>
+        <footer class="footer transFooter padd">
+            <div class="content has-text-right">
+                <h2 class="subtitle subFooter">© 2018 Scalene Partners -
+                    <a class="subFooter" href="mention.php"> Terms of Use</a>
+                </h2>
+            </div>
+        </footer>
     </section>
 </body>
 

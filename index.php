@@ -51,10 +51,6 @@
     <section class="hero is-fullheight">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
-                <!-- <a class="navbar-item" href="http://www.scalenepartners.com">
-                    <img src="./Assets/SC_PRTNRS_White.png" alt="Bulma: a modern CSS framework based on Flexbox" width="auto"
-                        height="40">
-                </a> -->
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>

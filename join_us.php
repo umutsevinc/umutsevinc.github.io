@@ -183,7 +183,7 @@ function IsInjected($str)
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
     <script language="JavaScript" src="JS/gen_validatorv31.js" type="text/javascript"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -216,7 +216,6 @@ function IsInjected($str)
   }
   ?>
     <section class="hero is-fullheight join">
-
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
@@ -245,7 +244,7 @@ function IsInjected($str)
             </div>
             </div>
         </nav>
-				<?php
+        <?php
 				if ($success == TRUE)
 				{
 					echo '<div class="notification is-primary" style="position:fixed !important; top:0px; left:0; right:0; z-index:10;">
@@ -253,151 +252,154 @@ function IsInjected($str)
 									Application successful, we will contact you soon.
 								</div>';
 			}
-			?>
+            ?>
         <div class="hero-body">
-            <div class="columns has-text-centered">
-                <div class="logoContainer column">
-                    <h2 class="titleTeam anim">
-                        JOIN <span style="font-family: Raleway-light">US</span></h2>
-                </div>
-                <div class="paddText column is-7">
-                    <div class="column">
-                        <div class="text">
-                            <h2 class="subtitleJoin">We are always looking for smart, dedicated individuals
-                                who can help our clients and thus, Scalene Partners, succeed.<br /><br />
-                                To apply, we invite you to follow the link below. Should we have an open
-                                position and your resume meets our requirements, we will contact you.</h2>
+            <div class="container has-text-centered">
+                <div>
+                    <div class="columns phoneTeam">
+                        <div class="columnImg is-half overlay-image">
+                            <h2 class="titleTeam anim">
+                                JOIN <span style="font-family: Raleway-light">US</span></h2>
                         </div>
-                    </div>
-                    <div class="column">
-                        <a href="#openModalJoin">
-                            <div class="hover">
-                                <div class="buttonApply">
-                                    <h2 class="subtitleJoinButton">Apply now</h2>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div id="openModalJoin" class="modalJoin">
-                        <div class="centerModal">
+                        <div class="columnImg is-half">
                             <div class="column">
-                                <div class="column">
-                                    <a href="#close" title="Close" class="closeJoin"><img class="crossImg" src="./Assets/Icons/cross2.png"
-                                            alt="close" /></a>
-                                </div>
-                                <div class="columns">
-                                    <div class="column">
-                                        <h2 class="infoTeamTitle"><span style="font-family: Raleway-light">APPLICATION</span></h2>
+                                <h2 class="subtitleJoin">We are always looking for smart, dedicated individuals
+                                    who can help our clients and thus, Scalene Partners, succeed.<br /><br />
+                                    To apply, we invite you to follow the link below. Should we have an open
+                                    position and your resume meets our requirements, we will contact you.</h2>
+                            </div>
+                            <div class="column">
+                                <a href="#openModalJoin">
+                                    <div class="hover">
+                                        <div class="buttonApply">
+                                            <h2 class="subtitleJoinButton">Apply now</h2>
+                                        </div>
                                     </div>
+                                </a>
+                            </div>
+                            <div id="openModalJoin" class="modalJoin">
+                                <div class="centerModal">
+                                    <div class="column">
+                                        <div class="column">
+                                            <a href="#close" title="Close" class="closeJoin"><img class="crossImg" src="./Assets/Icons/cross2.png"
+                                                    alt="close" /></a>
+                                        </div>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <h2 class="infoTeamTitle"><span style="font-family: Raleway-light">APPLICATION</span></h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <form method="POST" name="email_form_with_php" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>"
+                                        enctype="multipart/form-data">
+                                        <div class="field is-horizontal">
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <label class="label">First Name</label>
+                                                    <p class="control is-expanded has-icons-left">
+                                                        <div class="control">
+                                                            <input class="input" type="text" name="firstname">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                                <div class="field">
+                                                    <label class="label">Last Name</label>
+                                                    <p class="control is-expanded has-icons-left has-icons-right">
+                                                        <div class="control">
+                                                            <input class="input" type="text" name="lastname">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="field is-horizontal">
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <label class="label">E-mail address</label>
+                                                    <p class="control is-expanded has-icons-left">
+                                                        <div class="control">
+                                                            <input class="input" type="text" name="email">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                                <div class="field">
+                                                    <label class="label">Cellular number</label>
+                                                    <p class="control is-expanded has-icons-left has-icons-right">
+                                                        <div class="control">
+                                                            <input class="input" type="text" name="phone">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="field">
+                                            <label class="label">Message</label>
+                                            <div class="control">
+                                                <textarea class="textarea" name="message"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="field is-horizontal">
+                                            <div class="field-body">
+                                                <div class="field">
+                                                    <label class="label">Resume</label>
+                                                    <p class="control is-expanded has-icons-left">
+                                                        <div class="control">
+                                                            <input class="input" type="file" name="resume">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                                <div class="field">
+                                                    <label class="label">Cover letter</label>
+                                                    <p class="control is-expanded has-icons-left has-icons-right">
+                                                        <div class="control">
+                                                            <input class="input" type="file" name="cover_letter">
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="field is-grouped">
+                                            <div class="control">
+                                                <input type="submit" name="submit" value="Submit" class="button is-link"></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <script language="JavaScript">
+                                        // Code for validating the form
+                                        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                                        // for details
+                                        var frmvalidator = new Validator("email_form_with_php");
+                                        frmvalidator.addValidation("firstname", "req", "Please provide your First name");
+                                        frmvalidator.addValidation("lastname", "req", "Please provide your Last name");
+
+                                        frmvalidator.addValidation("email", "req", "Please provide your email");
+                                        frmvalidator.addValidation("email", "email", "Please enter a valid email address");
+                                        frmvalidator.addValidation("resume", "req", "Please upload your resume");
+                                        frmvalidator.addValidation("cover_letter", "req", "Please upload your cover letter");
+                                        frmvalidator.addValidation("phone", "req", "Please enter your phone number");
+                                        frmvalidator.addValidation("phone", "numeric", "Please enter a valid phone number");
+                                        $(document).on('click', '.notification > button.delete', function () {
+                                            $(this).parent().addClass('is-hidden');
+                                            return false;
+                                        });
+                                    </script>
                                 </div>
                             </div>
-                            <form method="POST" name="email_form_with_php" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>"
-                                enctype="multipart/form-data">
-                                <div class="field is-horizontal">
-                                    <div class="field-body">
-                                        <div class="field">
-                                            <label class="label">First Name</label>
-                                            <p class="control is-expanded has-icons-left">
-                                                <div class="control">
-                                                    <input class="input" type="text" name="firstname">
-                                                </div>
-                                            </p>
-                                        </div>
-                                        <div class="field">
-                                            <label class="label">Last Name</label>
-                                            <p class="control is-expanded has-icons-left has-icons-right">
-                                                <div class="control">
-                                                    <input class="input" type="text" name="lastname">
-                                                </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="field is-horizontal">
-                                    <div class="field-body">
-                                        <div class="field">
-                                            <label class="label">E-mail address</label>
-                                            <p class="control is-expanded has-icons-left">
-                                                <div class="control">
-                                                    <input class="input" type="text" name="email">
-                                                </div>
-                                            </p>
-                                        </div>
-                                        <div class="field">
-                                            <label class="label">Cellular number</label>
-                                            <p class="control is-expanded has-icons-left has-icons-right">
-                                                <div class="control">
-                                                    <input class="input" type="text" name="phone">
-                                                </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="field">
-                                    <label class="label">Message</label>
-                                    <div class="control">
-                                        <textarea class="textarea" name="message"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="field is-horizontal">
-                                    <div class="field-body">
-                                        <div class="field">
-                                            <label class="label">Resume</label>
-                                            <p class="control is-expanded has-icons-left">
-                                                <div class="control">
-                                                    <input class="input" type="file" name="resume">
-                                                </div>
-                                            </p>
-                                        </div>
-                                        <div class="field">
-                                            <label class="label">Cover letter</label>
-                                            <p class="control is-expanded has-icons-left has-icons-right">
-                                                <div class="control">
-                                                    <input class="input" type="file" name="cover_letter">
-                                                </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="field is-grouped">
-                                    <div class="control">
-                                        <input type="submit" name="submit" value="Submit" class="button is-link"></button>
-                                    </div>
-                                </div>
-                            </form>
-                            <script language="JavaScript">
-                                // Code for validating the form
-                                // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-                                // for details
-                                var frmvalidator = new Validator("email_form_with_php");
-                                frmvalidator.addValidation("firstname", "req", "Please provide your First name");
-                                frmvalidator.addValidation("lastname", "req", "Please provide your Last name");
-
-                                frmvalidator.addValidation("email", "req", "Please provide your email");
-                                frmvalidator.addValidation("email", "email", "Please enter a valid email address");
-                                frmvalidator.addValidation("resume", "req", "Please upload your resume");
-																frmvalidator.addValidation("cover_letter", "req", "Please upload your cover letter");
-                                frmvalidator.addValidation("phone", "req", "Please enter your phone number");
-                                frmvalidator.addValidation("phone", "numeric", "Please enter a valid phone number");
-																$(document).on('click', '.notification > button.delete', function() {
-    															$(this).parent().addClass('is-hidden');
-    															return false;
-																});
-                            </script>
                         </div>
                     </div>
                 </div>
-                <!-- <footer class="footer transFooter padd">
-                <div class="content has-text-right">
-                    <h2 class="subtitle subFooter">© 2018 Scalene Partners -
-                        <a class="subFooter" href="mention.php"> Terms of Use</a>
-                    </h2>
-                </div>
-            </footer> -->
             </div>
+        </div>
+        <footer class="footer transFooter padd">
+            <div class="content has-text-right">
+                <h2 class="subtitle subFooter">© 2018 Scalene Partners -
+                    <a class="subFooter" href="mention.php"> Terms of Use</a>
+                </h2>
+            </div>
+        </footer>
     </section>
 </body>
 

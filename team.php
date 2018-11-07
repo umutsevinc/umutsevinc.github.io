@@ -77,139 +77,149 @@
             </div>
             </div>
         </nav>
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="logoContainer">
-                    <h2 class="titleTeam anim">
-                        FOUNDING <span style="font-family: Raleway-light">PARTNERS</span></h2>
-                </div>
-                <div class="paddText">
-                    <div class="columns phoneTeam">
-                        <div class="columnImg is-half overlay-image">
-                            <a href="#openModalSamuel">
-                                <img class="image" src="./Assets/Img/Samuel.jpg" alt="Samuel Assaraf" />
-                                <div class="hover hidePhone">
-                                    <div class="text">
-                                        <h2 class="subtitleTeam">Samuel Assaraf</h2>
-                                        <h3 class="subtitle3">Managing Partner</h3>
-                                    </div>
-                                </div>
-                            </a>
-                            <div id="openModalSamuel" class="modalDialog">
-                                <div class="rightModal">
-                                    <a href="#close" title="Close" class="close2"><img class="crossImg" src="./Assets/Icons/cross.png"
-                                            alt="close" /></a>
-                                    <div class="teamHeader">
-                                        <img class="imageSamuel" src="./Assets/Img/SamuelColor.jpg" alt="Samuel Assaraf" />
-                                    </div>
-                                    <div class="column teamTitle">
-                                        <h2 class="infoTeamTitle">SAMUEL <span style="font-family: Raleway-light">ASSARAF</span></h2>
-                                        <h2 class="infoTeamTitle2">Managing Partner</h2>
-                                    </div>
-                                    <div class="columns paddModal">
-                                        <div class="column is-7">
-                                            <p class="descriptionText">Samuel Assaraf is Managing Partner and
-                                                co-founder of Scalene Partner.</p><br />
-                                            <p class="descriptionText">He is a former investment banker from the Global
-                                                Financial Advisory team
-                                                of
-                                                Rothschild & Co. During his career, Samuel mostly worked on deals
-                                                involving
-                                                financials sponsors, such as LBOs or stake disposals, in various
-                                                sectors
-                                                including technology and infrastructure.</p><br />
-                                            <p class="descriptionText">Before joining Rothschild & Co, he used to work
-                                                in private equity at
-                                                Qualium
-                                                Investment and in Mid Cap M&A at DC Advisory.</p>
-                                            <p class="descriptionText">Samuel graduated from ESSEC Business School and
-                                                Concordia University.</p>
+        <div>
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="logoContainer">
+                        <h2 class="titleTeam anim">
+                            FOUNDING <span style="font-family: Raleway-light">PARTNERS</span></h2>
+                    </div>
+                    <div>
+                        <div class="columns phoneTeam">
+                            <div class="columnImg is-half overlay-image">
+                                <a href="#openModalSamuel">
+                                    <img class="image" src="./Assets/Img/Samuel.jpg" alt="Samuel Assaraf" />
+                                    <div class="hover hidePhone">
+                                        <div class="text">
+                                            <h2 class="subtitleTeam">Samuel Assaraf</h2>
+                                            <h3 class="subtitle3">Managing Partner</h3>
                                         </div>
-                                        <div class="column is-1">
-                                            <div class="vl"></div>
+                                    </div>
+                                </a>
+                                <div id="openModalSamuel" class="modalDialog">
+                                    <div class="rightModal">
+                                        <a href="#close" title="Close" class="close2"><img class="crossImg" src="./Assets/Icons/cross.png"
+                                                alt="close" /></a>
+                                        <div class="teamHeader">
+                                            <img class="imageSamuel" src="./Assets/Img/SamuelColor.jpg" alt="Samuel Assaraf" />
                                         </div>
-                                        <div class="column colMargin">
-                                            <a href="./Assets/VCF/Samuel%20Assaraf.vcf" class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/man.png" alt="close" />
-                                                    <p class="contactText">Download V-Card</p>
-                                                </div>
-                                            </a>
-                                            <a href="mailto:samuel.assaraf@scalenepartners.com" class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/mail.png" alt="close" />
-                                                    <p class="contactText">E-mail</p>
-                                                </div>
-                                            </a>
-                                            <a href="https://www.linkedin.com/in/samuel-assaraf-b8560536/" target="_blank"
-                                                class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/linkedin.png" alt="close" />
-                                                    <p class="contactText">LinkedIn</p>
-                                                </div>
-                                            </a>
+                                        <div class="column teamTitle">
+                                            <h2 class="infoTeamTitle">SAMUEL <span style="font-family: Raleway-light">ASSARAF</span></h2>
+                                            <h2 class="infoTeamTitle2">Managing Partner</h2>
+                                        </div>
+                                        <div class="columns paddModal">
+                                            <div class="column is-7">
+                                                <p class="descriptionText">Samuel Assaraf is Managing Partner and
+                                                    co-founder of Scalene Partner.</p><br />
+                                                <p class="descriptionText">He is a former investment banker from the
+                                                    Global
+                                                    Financial Advisory team
+                                                    of
+                                                    Rothschild & Co. During his career, Samuel mostly worked on deals
+                                                    involving
+                                                    financials sponsors, such as LBOs or stake disposals, in various
+                                                    sectors
+                                                    including technology and infrastructure.</p><br />
+                                                <p class="descriptionText">Before joining Rothschild & Co, he used to
+                                                    work
+                                                    in private equity at
+                                                    Qualium
+                                                    Investment and in Mid Cap M&A at DC Advisory.</p>
+                                                <p class="descriptionText">Samuel graduated from ESSEC Business School
+                                                    and
+                                                    Concordia University.</p>
+                                            </div>
+                                            <div class="column is-1">
+                                                <div class="vl"></div>
+                                            </div>
+                                            <div class="column colMargin">
+                                                <a href="./Assets/VCF/Samuel%20Assaraf.vcf" class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/man.png" alt="close" />
+                                                        <p class="contactText">Download V-Card</p>
+                                                    </div>
+                                                </a>
+                                                <a href="mailto:samuel.assaraf@scalenepartners.com" class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/mail.png" alt="close" />
+                                                        <p class="contactText">E-mail</p>
+                                                    </div>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/samuel-assaraf-b8560536/" target="_blank"
+                                                    class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/linkedin.png" alt="close" />
+                                                        <p class="contactText">LinkedIn</p>
+                                                    </div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="columnImg is-half overlay-image">
-                            <a href="#openModalSimon">
-                                <img class="image" src="./Assets/Img/Simon.jpg" alt="Simon Eischen" />
-                                <div class="hover hidePhone">
-                                    <div class="text">
-                                        <h2 class="subtitleTeam">Simon Eischen</h2>
-                                        <h3 class="subtitle3">Managing Partner</h3>
-                                    </div>
-                                </div>
-                            </a>
-                            <div id="openModalSimon" class="modalDialog">
-                                <div>
-                                    <a href="#close" title="Close" class="close"><img class="crossImg" src="./Assets/Icons/cross.png"
-                                            alt="close" /></a>
-                                    <div class="teamHeader">
-                                        <img class="imageSamuel" src="./Assets/Img/SimonColor.jpg" alt="Simon Eischen" />
-                                    </div>
-                                    <div class="column teamTitle">
-                                        <h2 class="infoTeamTitle">SIMON <span style="font-family: Raleway-light">EISCHEN</span></h2>
-                                        <h2 class="infoTeamTitle2">Managing Partner</h2>
-                                    </div>
-                                    <div class="columns paddModal">
-                                        <div class="column is-7">
-                                            <p class="descriptionText">Simon Eischen is Managing Partner and co-founder
-                                                of Scalene Partners.</p><br />
-                                            <p class="descriptionText">He is a former investment banker from the Global
-                                                Financial Advisory team of Rothschild & Co. During his career, Simon
-                                                mostly worked on cross border deals in various sectors, including
-                                                Utilities, Oil & Gas and Technology.
-                                                ​</p><br />
-                                            <p class="descriptionText">Before joining Rothschild & Co, he used to work
-                                                in consulting at Roland Berger and in Mid Cap M&A at DC Advisory..</p><br />
-                                            <p class="descriptionText">Simon graduated from Audencia Business School.</p>
+                            <div class="columnImg is-half overlay-image">
+                                <a href="#openModalSimon">
+                                    <img class="image" src="./Assets/Img/Simon.jpg" alt="Simon Eischen" />
+                                    <div class="hover hidePhone">
+                                        <div class="text">
+                                            <h2 class="subtitleTeam">Simon Eischen</h2>
+                                            <h3 class="subtitle3">Managing Partner</h3>
                                         </div>
-                                        <div class="column is-1">
-                                            <div class="vl"></div>
+                                    </div>
+                                </a>
+                                <div id="openModalSimon" class="modalDialog">
+                                    <div>
+                                        <a href="#close" title="Close" class="close"><img class="crossImg" src="./Assets/Icons/cross.png"
+                                                alt="close" /></a>
+                                        <div class="teamHeader">
+                                            <img class="imageSamuel" src="./Assets/Img/SimonColor.jpg" alt="Simon Eischen" />
                                         </div>
-                                        <div class="column colMargin">
-                                            <a href="./Assets/VCF/Eischen%20Simon.vcf" class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/man.png" alt="close" />
-                                                    <p class="contactText">Download V-Card</p>
-                                                </div>
-                                            </a>
-                                            <a href="mailto:simon.eischen@scalenepartners.com" class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/mail.png" alt="close" />
-                                                    <p class="contactText">E-mail</p>
-                                                </div>
-                                            </a>
-                                            <a href="https://www.linkedin.com/in/simon-eischen-779a8260/" target="_blank"
-                                                class="linkInfo">
-                                                <div class="columns colArround">
-                                                    <img class="icon" src="./Assets/Icons/linkedin.png" alt="close" />
-                                                    <p class="contactText">LinkedIn</p>
-                                                </div>
-                                            </a>
+                                        <div class="column teamTitle">
+                                            <h2 class="infoTeamTitle">SIMON <span style="font-family: Raleway-light">EISCHEN</span></h2>
+                                            <h2 class="infoTeamTitle2">Managing Partner</h2>
+                                        </div>
+                                        <div class="columns paddModal">
+                                            <div class="column is-7">
+                                                <p class="descriptionText">Simon Eischen is Managing Partner and
+                                                    co-founder
+                                                    of Scalene Partners.</p><br />
+                                                <p class="descriptionText">He is a former investment banker from the
+                                                    Global
+                                                    Financial Advisory team of Rothschild & Co. During his career,
+                                                    Simon
+                                                    mostly worked on cross border deals in various sectors, including
+                                                    Utilities, Oil & Gas and Technology.
+                                                    ​</p><br />
+                                                <p class="descriptionText">Before joining Rothschild & Co, he used to
+                                                    work
+                                                    in consulting at Roland Berger and in Mid Cap M&A at DC Advisory..</p><br />
+                                                <p class="descriptionText">Simon graduated from Audencia Business
+                                                    School.</p>
+                                            </div>
+                                            <div class="column is-1">
+                                                <div class="vl"></div>
+                                            </div>
+                                            <div class="column colMargin">
+                                                <a href="./Assets/VCF/Eischen%20Simon.vcf" class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/man.png" alt="close" />
+                                                        <p class="contactText">Download V-Card</p>
+                                                    </div>
+                                                </a>
+                                                <a href="mailto:simon.eischen@scalenepartners.com" class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/mail.png" alt="close" />
+                                                        <p class="contactText">E-mail</p>
+                                                    </div>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/simon-eischen-779a8260/" target="_blank"
+                                                    class="linkInfo">
+                                                    <div class="columns colArround">
+                                                        <img class="icon" src="./Assets/Icons/linkedin.png" alt="close" />
+                                                        <p class="contactText">LinkedIn</p>
+                                                    </div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -218,14 +228,14 @@
                     </div>
                 </div>
             </div>
-            <!-- <footer class="footer transFooter padd">
-                <div class="content has-text-right">
-                    <h2 class="subtitle subFooter">© 2018 Scalene Partners -
-                        <a class="subFooter" href="mention.php"> Terms of Use</a>
-                    </h2>
-                </div>
-            </footer> -->
         </div>
+        <footer class="footer transFooter padd">
+            <div class="content has-text-right">
+                <h2 class="subtitle subFooter">© 2018 Scalene Partners -
+                    <a class="subFooter" href="mention.php"> Terms of Use</a>
+                </h2>
+            </div>
+        </footer>
     </section>
 </body>
 
