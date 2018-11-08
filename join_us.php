@@ -159,7 +159,7 @@ function IsInjected($str)
 }
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html class="joinPage">
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -205,6 +205,13 @@ function IsInjected($str)
                 });
             }
         });
+        function nav() {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-brand");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() - 15);
+            });
+        }
+        nav();
     </script>
 </head>
 

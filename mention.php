@@ -22,8 +22,8 @@
     <link href="Assets/Ico/ico.ico" rel="shortcut icon">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
-    <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -45,6 +45,13 @@
                 });
             }
         });
+        function nav() {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-brand");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() - 15);
+            });
+        }
+        nav();
     </script>
 </head>
 

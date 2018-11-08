@@ -21,6 +21,7 @@
     <link href="Assets/Ico/ico57.png" rel="apple-touch-icon-precomposed" sizes="57x57">
     <link href="Assets/Ico/ico.ico" rel="shortcut icon">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108837571-1"></script>
     <script>
@@ -44,16 +45,22 @@
                 });
             }
         });
+        function nav() {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-brand");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() - 15);
+            });
+        }
+        nav();
     </script>
 </head>
 
 <body>
     <section class="hero is-fullheight team">
-        <nav class="navbar is-transparent paddNavbar">
+        <nav class="navbar is-transparent paddNavbar navbar-fixed-top">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.php">
-                    <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
-                </a>
+                    <img src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40"> </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
