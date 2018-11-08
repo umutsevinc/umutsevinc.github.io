@@ -53,6 +53,9 @@
 .contactPage {
   overflow: hidden !important;
 }
+.teamPage {
+  overflow: hidden !important;
+}
 
 .hero.is-fullheight {
   background: linear-gradient(rgba(16, 46, 82, 0.8), rgba(16, 46, 82, 0.8)),
@@ -547,7 +550,7 @@ a.navbar-item.is-active {
   text-overflow: ellipsis;
 }
 
-@media (min-width: 741px) and (max-width: 1024px) {
+@media (min-width: 741px) and (max-width: 1080px) {
   .subTitleWord {
     margin-left: 20%;
     margin-right: 20%;
@@ -600,6 +603,178 @@ a.navbar-item.is-active {
     position: absolute;
     text-align: left;
    }
+   .joinPage {
+    overflow: scroll !important;
+  }
+  .indexPage {
+    overflow: scroll !important;
+  }
+  .homePage {
+    overflow: scroll !important;
+  }
+  .contactPage {
+    overflow: scroll !important;
+  }
+  .teamPage {
+    overflow: scroll !important;
+  }
+  .navbar {
+    z-index: 100;
+  }
+  .navbar-burger:hover {
+    color: #CB9910;
+  }
+  .navbar-burger {
+    color: white;
+  }
+  .navbar-brand.scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s ease-out;
+  }
+  .navbar-menu.is-active {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  a.navbar-item:hover {
+    background-color: transparent;
+  }
+  a.navbar-item.is-active {
+    color : #CB9910;
+    background-color: transparent;
+  }
+  .subTitleWord {
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 14%;
+    padding-right: 14%
+  }
+  .paddNavbar {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .navbar {
+    z-index: 100;
+  }
+  .navbar-burger:hover {
+    color: #CB9910;
+  }
+  .navbar-burger {
+    color: white;
+  }
+  .navbar-brand.scrolled {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s ease-out;
+  }
+  a.navbar-item:hover {
+    background-color: #fff;
+  }
+  .hvr-overline-reveal {
+    color: #102E52
+  }
+  .content h2 {
+    font-size: 0.6rem;
+  }
+  .hero-body .subtitle {
+    font-size: 1.2rem;
+  }
+  .hero-body .subtitle2 {
+    font-size: 0.8rem;
+  }
+  .line {
+    margin: 5%;
+  }
+  .rightModal {
+    left: 0%;
+  }
+  .logoContainer {
+    padding-bottom: 10%;
+  }
+  .paddText {
+    padding-bottom: 20%;
+  }
+  .subTitleWord {
+    display: flex;
+  }
+  .navbar-menu.is-active {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  a.navbar-item:hover {
+    background-color: transparent;
+  }
+  a.navbar-item.is-active {
+    color : #CB9910;
+    background-color: transparent;
+  }
+  .columnImg  {
+    display: block;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    margin: 0rem;
+    margin-bottom: 0.7rem;
+  }
+  .modalDialogSamuel > div {
+    width: 50%;
+    height: auto;
+    position: relative;
+    padding: 0% 0px 13px 0px;
+    background: #fff;
+  }
+  .modalDialogSamuel {
+    overflow: scroll !important;
+  }
+  .modalDialogSimon > div {
+    width: 50%;
+    height: auto;
+    position: relative;
+    padding: 0% 0px 13px 0px;
+    background: #fff;
+  }
+  .modalDialogSimon {
+    overflow: scroll !important;
+  }
+  .hover.hidePhone {
+    display: none;
+  }
+  .hero .navbar {
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+  }
+  .hero.is-fullheight .hero-body, .hero.is-halfheight .hero-body  {
+    padding-top: 20%;
+  }
+  .joinPage {
+    overflow: scroll !important;
+  }
+  .indexPage {
+    overflow: scroll !important;
+  }
+  .homePage {
+    overflow: scroll !important;
+  }
+  .contactPage {
+    overflow: scroll !important;
+  }
+  .teamPage {
+    overflow: scroll !important;
+  }
+  
+  .close {
+    left: 10px !important;
+  }
+  #colHide.columns {
+    margin: 0%;
+    padding: 5%;
+  }
 }
 @media screen and (max-width: 740px) {
   .subTitleWord {
@@ -735,13 +910,19 @@ a.navbar-item.is-active {
     padding-top: 20%;
   }
   .joinPage {
-    overflow: hidden !important;
+    overflow: scroll !important;
+  }
+  .indexPage {
+    overflow: scroll !important;
   }
   .homePage {
-    overflow: hidden !important;
+    overflow: scroll !important;
   }
   .contactPage {
-    overflow: hidden !important;
+    overflow: scroll !important;
+  }
+  .teamPage {
+    overflow: scroll !important;
   }
   .backColor {
     z-index: 10;
