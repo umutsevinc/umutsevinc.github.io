@@ -41,6 +41,19 @@
 
 /* html, body {overflow: hidden} */
 
+.joinPage {
+  overflow: hidden !important;
+}
+.indexPage {
+  overflow: hidden !important;
+}
+.homePage {
+  overflow: hidden !important;
+}
+.contactPage {
+  overflow: hidden !important;
+}
+
 .hero.is-fullheight {
   background: linear-gradient(rgba(16, 46, 82, 0.8), rgba(16, 46, 82, 0.8)),
     url("../Assets/Img/background_image.jpg") no-repeat 2% 52% fixed;

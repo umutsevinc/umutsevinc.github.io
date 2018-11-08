@@ -7,7 +7,7 @@
     <meta author="Scalene Partners" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Scalene Partners | Fundraising advisory" />
-    <title>Scalene Partners</title>
+    <title>Scalene Partners | Legal</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
     <link rel="stylesheet" href="./CSS/app.css">
