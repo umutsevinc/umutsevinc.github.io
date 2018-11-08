@@ -976,4 +976,7 @@ a.navbar-item.is-active {
     color: white;
     font-family: Raleway-bold;
   }
+  .has-text-right {
+    text-align: center!important;
+  }
 }
