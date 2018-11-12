@@ -176,7 +176,7 @@
                                     </div>
                                 </a>
                                 <div id="openModalSimon" class="modalDialogSimon">
-                                    <div class="rightModal">
+                                    <div class="leftModal">
                                         <div class="backColorTeam">
                                             <a href="#close" title="Close" class="close"><img class="crossImg" src="./Assets/Icons/cross.png"
                                                     alt="close" /></a>

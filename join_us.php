@@ -358,11 +358,11 @@ function IsInjected($str)
 																												<i class="fas fa-upload"></i>
 																											</span>
 																											<span class="file-label is-fullwidth">
-																												Upload file
+																												Upload a file
 																											</span>
 																										</span>
 																										<span id="resume-name" class="file-name">
-																											No file chosen..
+																											No file.
 																										</span>
 																									</label>
 																								</div>
@@ -377,11 +377,11 @@ function IsInjected($str)
 																												<i class="fas fa-upload"></i>
 																											</span>
 																											<span class="file-label is-fullwidth">
-																												Upload file
+																												Upload a file
 																											</span>
 																										</span>
 																										<span id="cover-letter-name"class="file-name">
-																											No file chosen
+																											No file.
 																										</span>
 																									</label>
 																								</div>
