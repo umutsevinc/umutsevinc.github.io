@@ -132,7 +132,7 @@
                                                     work
                                                     in private equity at
                                                     Qualium
-                                                    Investment and in Mid Cap M&A at DC Advisory.</p>
+                                                    Investment and in Mid Cap M&A at DC Advisory.</p><br/>
                                                 <p class="descriptionText">Samuel graduated from ESSEC Business School
                                                     and
                                                     Concordia University.</p>

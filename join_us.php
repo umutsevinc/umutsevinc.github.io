@@ -348,8 +348,8 @@ function IsInjected($str)
 
                                         <div class="field is-horizontal">
                                             <div class="field-body">
-
 																							<div class="field is-fullwidth">
+																								<label class="label">Resume</label>
 																								<div class="file is-info has-name is-fullwidth">
 																									<label class="file-label is-fullwidth">
 																										<input id="resume-upload" class="file-input" type="file" name="resume">
@@ -358,17 +358,17 @@ function IsInjected($str)
 																												<i class="fas fa-upload"></i>
 																											</span>
 																											<span class="file-label is-fullwidth">
-																												Pick file
+																												Upload file
 																											</span>
 																										</span>
 																										<span id="resume-name" class="file-name">
-																											Choose your resume...
+																											No file chosen..
 																										</span>
 																									</label>
 																								</div>
 																							</div>
-
 																							<div class="field is-fullwidth">
+																								<label class="label">Cover letter</label>
 																								<div class="file is-info has-name is-fullwidth">
 																									<label class="file-label is-fullwidth">
 																										<input id="cover-letter-upload" class="file-input" type="file" name="cover_letter">
@@ -377,11 +377,11 @@ function IsInjected($str)
 																												<i class="fas fa-upload"></i>
 																											</span>
 																											<span class="file-label is-fullwidth">
-																												Pick file
+																												Upload file
 																											</span>
 																										</span>
 																										<span id="cover-letter-name"class="file-name">
-																											Choose your cover letter...
+																											No file chosen
 																										</span>
 																									</label>
 																								</div>
