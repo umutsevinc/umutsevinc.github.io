@@ -549,8 +549,14 @@ a.navbar-item.is-active {
   text-align: left;
   text-overflow: ellipsis;
 }
+.phoneLogo img {
+  display: none;
+}
 
 @media (min-width: 741px) and (max-width: 1080px) {
+  .phoneLogo img {
+    display: block;
+  }
   .subTitleWord {
     margin-left: 20%;
     margin-right: 20%;
@@ -686,7 +692,7 @@ a.navbar-item.is-active {
     margin: 5%;
   }
   .rightModal {
-    left: 0%;
+    left: 50%;
   }
   .logoContainer {
     padding-bottom: 10%;
@@ -718,7 +724,7 @@ a.navbar-item.is-active {
     flex-grow: 1;
     -ms-flex-negative: 1;
     flex-shrink: 1;
-    margin: 0rem;
+    margin: 1rem;
     margin-bottom: 0.7rem;
   }
   .modalDialogSamuel > div {
@@ -978,5 +984,8 @@ a.navbar-item.is-active {
   }
   .has-text-right {
     text-align: center!important;
+  }
+  .phoneLogo img {
+    display: block;
   }
 }

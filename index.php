@@ -40,10 +40,19 @@
                         const $target = document.getElementById(target);
                         el.classList.toggle('is-active');
                         $target.classList.toggle('is-active');
+                        el.classList.toggle('navbar-brand.scrolled');
+                        $target.classList.toggle('navbar-brand.scrolled');
                     });
                 });
             }
         });
+        function nav() {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-brand");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height() - 15);
+            });
+        }
+        nav();
     </script>
 </head>
 
@@ -51,6 +60,9 @@
     <section class="hero is-fullheight">
         <nav class="navbar is-transparent paddNavbar">
             <div class="navbar-brand">
+                <a class="navbar-item phoneLogo" href="index.php">
+                    <img class="" src="./Assets/Logo/SC_PRTNRS_White.png" alt="Scalene Partners" width="auto" height="40">
+                </a>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
