@@ -167,7 +167,7 @@ function IsInjected($str)
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Scalene Partners | Fundraising advisory" />
     <title>Scalene Partners | Join Us</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
     <link rel="stylesheet" href="./CSS/app.css">
     <link rel="stylesheet" href="./CSS/hover/hover.css">
@@ -348,22 +348,44 @@ function IsInjected($str)
 
                                         <div class="field is-horizontal">
                                             <div class="field-body">
-                                                <div class="field">
-                                                    <label class="label">Resume</label>
-                                                    <p class="control is-expanded has-icons-left">
-                                                        <div class="control">
-                                                            <input class="input" type="file" name="resume">
-                                                        </div>
-                                                    </p>
-                                                </div>
-                                                <div class="field">
-                                                    <label class="label">Cover letter</label>
-                                                    <p class="control is-expanded has-icons-left has-icons-right">
-                                                        <div class="control">
-                                                            <input class="input" type="file" name="cover_letter">
-                                                        </div>
-                                                    </p>
-                                                </div>
+
+																							<div class="field is-fullwidth">
+																								<div class="file is-info has-name is-fullwidth">
+																									<label class="file-label is-fullwidth">
+																										<input id="resume-upload" class="file-input" type="file" name="resume">
+																										<span class="file-cta">
+																											<span class="file-icon">
+																												<i class="fas fa-upload"></i>
+																											</span>
+																											<span class="file-label is-fullwidth">
+																												Pick file
+																											</span>
+																										</span>
+																										<span id="resume-name" class="file-name">
+																											Choose your resume...
+																										</span>
+																									</label>
+																								</div>
+																							</div>
+
+																							<div class="field is-fullwidth">
+																								<div class="file is-info has-name is-fullwidth">
+																									<label class="file-label is-fullwidth">
+																										<input id="cover-letter-upload" class="file-input" type="file" name="cover_letter">
+																										<span class="file-cta">
+																											<span class="file-icon">
+																												<i class="fas fa-upload"></i>
+																											</span>
+																											<span class="file-label is-fullwidth">
+																												Pick file
+																											</span>
+																										</span>
+																										<span id="cover-letter-name"class="file-name">
+																											Choose your cover letter...
+																										</span>
+																									</label>
+																								</div>
+																							</div>
                                             </div>
                                         </div>
 
@@ -391,6 +413,14 @@ function IsInjected($str)
                                             $(this).parent().addClass('is-hidden');
                                             return false;
                                         });
+																				$('#resume-upload').change(function() {
+																					var filename = $('#resume-upload')[0].files[0].name;
+																					document.getElementById('resume-name').innerHTML = filename;
+																				});
+																				$('#cover-letter-upload').change(function() {
+																					var filename = $('#cover-letter-upload')[0].files[0].name;
+																					document.getElementById('cover-letter-name').innerHTML = filename;
+																				});
                                     </script>
                                 </div>
                             </div>
