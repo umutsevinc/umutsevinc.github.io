@@ -95,91 +95,76 @@
                     <div class="columns phoneTeam">
                         <div class="columnImg is-half overlay-image">
                             <div class="column">
-                                <h2 class="infoContactTitle">Editeur</span></h2>
+                                <h2 class="infoContactTitle">Publisher</span></h2>
                             </div>
                             <div class="column">
                                 <h2 class="infoMentionsTitle2">
-                                    Le présent site est la propriété de édité par la société SCALENE PARTNERS<br />
-                                    Société par actions simplifiée au capital de 30 000 euros.<br />
-                                    RCS Paris 830 765 996 00012<br />
-                                    N° TVA : FR 79830765996<br />
-                                    Adresse du siège social : 16 cours Albert 1er, 75008 Paris<br />
-                                    Email : <a class="contact-reveal" href="mailto:contact@scalenepartners.com">contact@scalenepartners.com</a><br />
-                                    Numéro de téléphone : +33 1 83 75 66 34<br />
-                                    Directeur de la publication : Simon Eischen<br />
-                                    Membre de la Chambre Nationale des Conseils en Investissements Financiers,<br />
-                                    ORIAS n°D017926, www.orias.fr, agréée par l’AMF.</h2>
+                                    This website is owned and published by <b>SCALENE PARTNERS</b><br/>
+                                    a société par actions simplifiée with a share capital of 30,000 euros (the “Company”)<br/>
+                                    registered with the court registry (Registre du commerce et des sociétés) of Paris under number 830 765 996 00012<br/>
+                                    and whose registered office is located at 16, cours Albert 1er, 75008 Paris (France).<br/>
+                                    VAT number:	FR 79830765996<br/>
+                                    Email address: contact@scalenepartners.com<br/>
+                                    Phone number: +33 1 83 75 66 34<br/>
+                                    Publication manager: Simon Eischen<br/>
+                                    The Company is a member of the Chambre Nationale des Conseils-Experts Financiers, a professional organization of financial experts.<br/></h2>
                             </div>
                             <div class="column">
-                                <h2 class="infoContactTitle">Hébergeur</span></h2>
-                            </div>
-                            <div class="column">
-                                <h2 class="infoMentionsTitle2">
-                                    Ce site est hébergé par :
-                                    1&1 Internet SARL
-                                    Adresse : 7, place de la Gare BP 70109 57201 Sarreguemines Cedex
-                                    Tel : 0970808911</h2>
-                            </div>
-                            <div class="column">
-                                <h2 class="infoContactTitle">Propriété intellectuelle</span></h2>
+                                <h2 class="infoContactTitle">Host</span></h2>
                             </div>
                             <div class="column">
                                 <h2 class="infoMentionsTitle2">
-                                    Tous les éléments constituant le présent site, qu’ils soient visuels ou sonores,
-                                    appartiennent à l’éditeur et sont à ce titre protégés par la législation relative
-                                    aux droits de Propriété Intellectuelle. Les utilisateurs du site reconnaissent donc
-                                    que, en l’absence d’autorisation, toute copie totale ou partielle et toute
-                                    diffusion ou exploitation d’un ou plusieurs de ces éléments, même modifiés, seront
-                                    susceptibles de donner lieu à des poursuites judiciaires menées à leur encontre par
-                                    l’éditeur ou ses ayants droits. Cette protection portera sur tous les contenus
-                                    textuels et graphiques du site, mais également sur sa structure, sur son nom et sa
-                                    charte graphique.<br /><br />
-                                    Toute reproduction totale ou partielle de son logo, effectuée à partir des éléments
-                                    du site sans l’autorisation expresse de l’éditeur est donc prohibée, au sens de
-                                    l’article L.713-2 du Code la Propriété Intellectuelle.<br /><br />
-                                    Tout lien hypertexte renvoyant au présent site ou placé sur la page d’accueil du
-                                    site doit faire l’objet d’une autorisation préalable expresse de la part de
-                                    l’éditeur.</h2>
+                                    This website is hosted by :<br/>
+                                    1&1 Internet SARL<br/>
+                                    7, place de la Gare BP 70109 57201 Sarreguemines Cedex<br/>
+                                    Phone number : 0970808911</h2>
                             </div>
                             <div class="column">
-                                <h2 class="infoContactTitle">Informations mises à disposition</span></h2>
+                                <h2 class="infoContactTitle">Intellectual property</span></h2>
                             </div>
                             <div class="column">
                                 <h2 class="infoMentionsTitle2">
-                                    Ce site est destiné à fournir des informations générales sur l’éditeur. Les
-                                    informations contenues sur ce site ne constituent pas et ne sont pas destinées à
-                                    constituer un conseil d'investissement, une offre ou une sollicitation d'intérêt
-                                    concernant l'acquisition de titres ou d'actions ou la fourniture de services de
-                                    gestion d'investissement à toute personne et dans toute juridiction où une telle
-                                    sollicitation n'est pas autorisée, ou à toute personne à qui il serait illégal de
-                                    faire une telle sollicitation.<br /><br />
-                                    Les sites reliés directement ou indirectement au site <a class="contact-reveal"
-                                        href="www.scalenepartners.com">www.scalenepartners.com</a> ne
-                                    sont pas sous son contrôle. En conséquence, l’exploitant du site web n’assume
-                                    aucune responsabilité quant aux informations publiées sur ces sites. Les liens avec
-                                    des sites extérieurs ne sont fournis qu’à titre de commodité et n’impliquent aucune
-                                    responsabilité quant à leur contenu.</h2>
+                                    The content of this website, including images and sound recordings, belong to the Company and is protected by the applicable intellectual property rights legislation.<br/>
+                                    The users of this website acknowledge that, without the Company’s authorization, any partial or total reproduction, publication on a third party website, or use, of any of its content, even modified, may result in the Company or its beneficiaries initiating judicial proceedings against them.<br/>
+                                    The protected content of this website covers its textual and visual content, as well as its structure, its name, and its graphic layout.<br/>
+                                    Any total or partial reproduction of the Company’s logo realized using the content of this website, without the Company’s prior authorization, is forbidden, in accordance with Article L. 713-2 of the French Code de la propriété intellectuelle.<br/>
+                                    Any hypertext link leading to this website must be previously approved by the Company.</h2>
                             </div>
                             <div class="column">
-                                <h2 class="infoContactTitle">Données personnelles</span></h2>
+                                <h2 class="infoContactTitle">Information provided to the users of this website</span></h2>
                             </div>
                             <div class="column">
                                 <h2 class="infoMentionsTitle2">
-                                    L’utilisateur est notamment informé que, conformément à l’article 32 de la loi
-                                    Informatique et libertés du 6 janvier 1978 modifiée par la loi du 20 juin 2018, les
-                                    informations qu’il communique par les formulaires présents sur le site «
+                                    This website provides general information about the Company. Information contained on 
+                                    this website do not constitute, and are not meant to constitute, investment advices,
+                                    offers or solicitations relating to the acquisition of securities or the provision of
+                                    investment management services to any person and in any jurisdiction where such 
+                                    solicitation would be prohibited, or to any person to which it would be illegal 
+                                    to make such a solicitation.<br /><br />
+                                    Links to external websites are only provided to make the use of the website by the users
+                                    more convenient. External websites linked directly or indirectly to the website 
                                     <a class="contact-reveal" href="www.scalenepartners.com">www.scalenepartners.com</a>
-                                    » sont nécessaires
-                                    pour répondre à sa demande par l’éditeur
-                                    du site qui en est le seul destinataire. Elles ne sont communiquées à des tiers que
-                                    pour satisfaire aux obligations légales et réglementaires. Lesdites informations
-                                    seront conservées pendant une durée de trois ans.
-                                    ​
-                                    Conformément aux dispositions légales précitées, l’utilisateur bénéficie d’un droit
-                                    d’accès aux et de rectification des informations qui le concernent ainsi que d’un
-                                    droit de donner des directives relatives au sort de ces données après sa mort, que
-                                    l’utilisateur peut exercer en s’adressant au responsable du traitement des données,
-                                    à savoir Simon Eischen ou par email à <a class="contact-reveal" href="mailto:contact@scalenepartners.com">contact@scalenepartners.com</a>.</h2>
+                                    are not controlled by the Company. Consequently, 
+                                    the Company will not be liable for the content published on these websites.</h2>
+                            </div>
+                            <div class="column">
+                                <h2 class="infoContactTitle">Personal Data</span></h2>
+                            </div>
+                            <div class="column">
+                                <h2 class="infoMentionsTitle2">
+
+                                    The users are notably informed that, in accordance with Article 32 of Act No. 78-17 of
+                                    6 January 1978 on information technology, data files and civil liberties, as amended, 
+                                    the information provided through the forms contained in this website are used by 
+                                    the Company to answer the users’ requests or questions. The Company is the sole recipient 
+                                    of the information provided by the users. However, such information may be communicated 
+                                    to third parties for the sole purpose of complying with legal obligations. Information 
+                                    provided by the users will be kept for a duration of three years.<br/>
+                                    In accordance with the abovementioned legal provisions, the users may access and rectify 
+                                    their personal data, as well as instruct the Company on the treatment to be given to 
+                                    their personal data in case of death. Users may exercise these rights by contacting the 
+                                    data controller, i.e. Simon Eischen (email address: 
+                                    <a class="contact-reveal" href="mailto:contact@scalenepartners.com">contact@scalenepartners.com</a>).</h2>
                             </div>
                         </div>
                     </div>
