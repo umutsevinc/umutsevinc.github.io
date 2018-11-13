@@ -351,7 +351,7 @@ function IsInjected($str)
                                             <div class="field-body">
                                                 <div class="field is-fullwidth">
                                                     <label class="label">Resume</label>
-                                                    <div class="file is-info has-name is-fullwidth">
+                                                    <div class="file has-name is-fullwidth">
                                                         <label class="file-label is-fullwidth">
                                                             <input id="resume-upload" class="file-input" type="file"
                                                                 name="resume">
@@ -371,7 +371,7 @@ function IsInjected($str)
                                                 </div>
                                                 <div class="field is-fullwidth">
                                                     <label class="label">Cover letter</label>
-                                                    <div class="file is-info has-name is-fullwidth">
+                                                    <div class="file has-name is-fullwidth">
                                                         <label class="file-label is-fullwidth">
                                                             <input id="cover-letter-upload" class="file-input" type="file"
                                                                 name="cover_letter">
