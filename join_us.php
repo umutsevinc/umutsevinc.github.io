@@ -104,7 +104,7 @@ if(isset($_POST['submit']))
 
 		$transport = (new Swift_SmtpTransport('smtp.ionos.fr', 587, 'tls'))
 		->setUsername('dev@scalenepartners.com')
-		->setPassword('devscalene');
+		->setPassword('&"yqyY5/H3HgX&ay');
 
 		$mailer = new Swift_Mailer($transport);
 
