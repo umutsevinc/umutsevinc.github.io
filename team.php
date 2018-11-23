@@ -123,16 +123,13 @@
                                                     Global
                                                     Financial Advisory team
                                                     of
-                                                    Rothschild & Co. During his career, Samuel mostly worked on deals
+                                                    Rothschild & Co. During his career, Samuel gained knowledge on deals
                                                     involving
                                                     financials sponsors, such as LBOs or stake disposals, in various
                                                     sectors
                                                     including technology and infrastructure.</p><br />
-                                                <p class="descriptionText">Before joining Rothschild & Co, he used to
-                                                    work
-                                                    in private equity at
-                                                    Qualium
-                                                    Investment and in Mid Cap M&A at DC Advisory.</p><br/>
+                                                <p class="descriptionText">Before joining Rothschild & Co, he had worked in private equity at
+                                                    Qualium Investment and in Mid Cap M&A at DC Advisory.</p><br/>
                                                 <p class="descriptionText">Samuel graduated from ESSEC Business School
                                                     and
                                                     Concordia University.</p>
@@ -196,13 +193,11 @@
                                                 <p class="descriptionText">He is a former investment banker from the
                                                     Global
                                                     Financial Advisory team of Rothschild & Co. During his career,
-                                                    Simon
-                                                    mostly worked on cross border deals in various sectors, including
+                                                    Simon became experienced on cross border deals in various sectors, including
                                                     Utilities, Oil & Gas and Technology.
                                                     ​</p><br />
-                                                <p class="descriptionText">Before joining Rothschild & Co, he used to
-                                                    work
-                                                    in consulting at Roland Berger and in Mid Cap M&A at DC Advisory..</p><br />
+                                                <p class="descriptionText">Before joining Rothschild & Co, he had the opportunity to
+                                                    work in consulting at Roland Berger and in Mid Cap M&A at DC Advisory.</p><br />
                                                 <p class="descriptionText">Simon graduated from Audencia Business
                                                     School.</p>
                                             </div>

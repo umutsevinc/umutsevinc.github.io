@@ -103,7 +103,7 @@
                                     France</h2>
                             </div>
                             <div class="column">
-                                <h2 class="infoContactTitle2">If you have any questions, you can contact us by
+                                <h2 class="infoContactTitle2">If you have any questions, you may contact us by
                                     e-mail at the following address: <a class="contact-reveal" href="mailto:contact@scalenepartners.com">contact@scalenepartners.com</a></h2>
                             </div>
                             <div class="column">

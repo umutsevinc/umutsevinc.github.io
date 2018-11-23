@@ -330,7 +330,7 @@ function IsInjected($str)
                                                     </p>
                                                 </div>
                                                 <div class="field">
-                                                    <label class="label">Cellular number</label>
+                                                    <label class="label">Contact number</label>
                                                     <p class="control is-expanded has-icons-left has-icons-right">
                                                         <div class="control">
                                                             <input class="input" type="text" name="phone">
