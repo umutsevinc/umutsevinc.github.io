@@ -88,7 +88,7 @@
                 <div class="container has-text-centered">
                     <div class="logoContainer">
                         <h2 class="titleTeam anim">
-                            FOUNDING <span style="font-family: Raleway-light">PARTNERS</span></h2>
+                            MANAGING <span style="font-family: Raleway-light">PARTNERS</span></h2>
                     </div>
                     <div>
                         <div class="columns phoneTeam">
