@@ -102,13 +102,13 @@
                     <div class="line"></div>
                     <div class="columns subTitleWord">
                         <div class="column">
+                            <h3 class="subtitle2">Fundraising</h3>
+                        </div>
+                        <div class="column">
                             <h3 class="subtitle2">M&A</h3>
                         </div>
                         <div class="column">
-                            <h3 class="subtitle2">Strategic advisory</h3>
-                        </div>
-                        <div class="column">
-                            <h3 class="subtitle2">ICO</h3>
+                            <h3 class="subtitle2">Strategic Advisory</h3>
                         </div>
                     </div>
                 </div>

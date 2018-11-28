@@ -107,11 +107,17 @@ if(isset($_POST['submit']))
 		->setPassword('Vcan&DKVW3=EG35~');
 
 		$mailer = new Swift_Mailer($transport);
-
+        $messageBody = file_get_contents('Assets/e-mail.1.html');
+		$messageBody = str_replace("%name%", "$firstname $lastname", $messageBody);
+		$messageBody = str_replace("%email%", $visitor_email, $messageBody);
+		$messageBody = str_replace("%phone%", $phone, $messageBody);
+		$messageBody = str_replace("%message%", $user_message, $messageBody);
+		$messageBody = str_replace("%resume%", $path_of_resume, $messageBody);
+		$messageBody = str_replace("%cover_letter%", $path_of_cover_letter, $messageBody);
 		$message = (new Swift_Message('New application received'))
   	->setFrom([$your_email => "$firstname $lastname"])
-  	->setTo([$your_email => 'Dev Dev'])
-  	->setBody($text)
+  	->setTo([$your_email => 'Scalene Partners'])
+  	->setBody($messageBody, 'text/html')
 		->setReplyTo($visitor_email)
 		->attach(Swift_Attachment::fromPath($path_of_resume))
 		->attach(Swift_Attachment::fromPath($path_of_cover_letter));
