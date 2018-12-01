@@ -104,7 +104,7 @@
                                 </a>
                                 <div id="openModalSamuel" class="modalDialogSamuel">
                                     <div class="rightModal">
-                                        <div class="backColorTeam">
+                                        <div class="backColorTeam2">
                                             <a href="#close" title="Close" class="close2"><img class="crossImg" src="./Assets/Icons/cross.png"
                                                     alt="close" /></a>
                                             <div class="teamHeader">
@@ -115,7 +115,7 @@
                                             <h2 class="infoTeamTitle">SAMUEL <span style="font-family: Raleway-light">ASSARAF</span></h2>
                                             <h2 class="infoTeamTitle2">Managing Partner</h2>
                                         </div>
-                                        <div id="colHide" class="columns paddModal modalDialogScroll">
+                                        <div id="colHide" class="columnsSamuel paddModal modalDialogScroll">
                                             <div class="column is-7">
                                                 <p class="descriptionText">Samuel Assaraf is Managing Partner and
                                                     co-founder of Scalene Partner.</p><br />

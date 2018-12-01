@@ -350,7 +350,7 @@ a.navbar-item.is-active {
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
-	pointer-events: none;
+  pointer-events: none;
 }
 .modalDialogSamuel:target {
 	opacity:1;
@@ -371,17 +371,45 @@ a.navbar-item.is-active {
 }
 .modalDialogSamuel > div {
   width: 50%;
-  height: 100%;
+  height: auto;
 	position: relative;
-	padding: 0px 0px 13px 0px;
+	padding: 24% 0px 20px 0px;
 	background: #fff;
 }
 .modalDialogSimon > div {
   width: 50%;
-  height: 100%;
+  height: auto;
 	position: relative;
-	padding: 0px 0px 13px 0px;
+	padding: 25% 0px 20px 0px;
 	background: #fff;
+}
+.modalDialogSimon {
+  overflow: scroll !important;
+}
+.modalDialogSamuel {
+  overflow: scroll !important;
+}
+.columnsSamuel {
+  margin-left: -.75rem;
+  margin-top: -.75rem;
+  flex-direction: row;
+  display: flex;
+}
+.backColorTeam {
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 50%;
+  position: fixed;
+  background-color: white;
+}
+.backColorTeam2 {
+  z-index: 10;
+  top: 0;
+  left: 50%;
+  right: 0;
+  position: fixed;
+  background-color: white;
 }
 .modalJoin {
 	position: fixed;
@@ -731,20 +759,20 @@ a.navbar-item.is-active {
     width: 50%;
     height: auto;
     position: relative;
-    padding: 0% 0px 13px 0px;
+    padding: 24% 0px 20px 0px;
     background: #fff;
-  }
-  .modalDialogSamuel {
-    overflow: scroll !important;
   }
   .modalDialogSimon > div {
     width: 50%;
     height: auto;
     position: relative;
-    padding: 0% 0px 13px 0px;
+    padding: 25% 0px 20px 0px;
     background: #fff;
   }
   .modalDialogSimon {
+    overflow: scroll !important;
+  }
+  .modalDialogSamuel {
     overflow: scroll !important;
   }
   .hover.hidePhone {
@@ -861,6 +889,12 @@ a.navbar-item.is-active {
     margin: 0rem;
     margin-bottom: 0.7rem;
   }
+  .columnsSamuel {
+    margin-left: -.75rem;
+    margin-top: -.75rem;
+    flex-direction: column;
+    display: flex;
+  }
   .modalDialogSamuel > div {
     width: 100%;
     height: auto;
@@ -939,6 +973,14 @@ a.navbar-item.is-active {
     background-color: white;
   }
   .backColorTeam {
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: white;
+  }
+  .backColorTeam2 {
     z-index: 10;
     top: 0;
     left: 0;

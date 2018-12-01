@@ -135,7 +135,7 @@ if(isset($_POST['submit']))
 		->setFrom([$your_email => "Scalene Partners"])
 		->setTo([$visitor_email => "$firstname $lastname"])
 		->setBody($messageBody, 'text/html')
-		->addPart('Thank you for applying, we will contact you soon.');
+		->addPart('Thank you for applying, If there is an open position that matches your qualifications, we will contact you to schedule an interview.');
 
 		$result = $mailer->send($message);
 	}
@@ -262,7 +262,7 @@ function IsInjected($str)
 				{
 					echo '<div class="notification is-primary" style="position:fixed !important; top:0px; left:0; right:0; z-index:10;">
 									<button class="delete"></button>
-									Application successful, we will contact you soon.
+									Application successful, If there is an open position that matches your qualifications, we will contact you to schedule an interview.
 								</div>';
 			}
             ?>
