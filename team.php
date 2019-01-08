@@ -118,7 +118,7 @@
                                         <div id="colHide" class="columnsSamuel paddModal modalDialogScroll">
                                             <div class="column is-7">
                                                 <p class="descriptionText">Samuel Assaraf is Managing Partner and
-                                                    co-founder of Scalene Partner.</p><br />
+                                                    co-founder of Scalene Partners.</p><br />
                                                 <p class="descriptionText">He is a former investment banker from the
                                                     Global
                                                     Financial Advisory team
